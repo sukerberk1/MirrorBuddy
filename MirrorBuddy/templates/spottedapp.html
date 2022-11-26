@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block dynamic_links %} 
+<link rel="stylesheet" href="{% static 'style-spottedapp.css' %}"/>
+{% endblock %}
+
+{% block content %}
+<div class="content-box">
+<ul class="entry-list">
+    {% for entry in entry_list %}
+    <div class="entry-wrapper">
+        <h5>{{entry.nickname}}</h5>
+        <p>{{entry.text}}</p>
+        <p class="entry-pub-date">{{entry.pub_date}}</p>
+    </div>
+    {% endfor %}
+</ul>
+<div class="form-wrapper">
+    <form class="entry-form" method="POST">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="field-wrapper">
+            {{field.label_tag}}
+            {{field}}
+        </div>
+        
+        {% endfor %}
+        <input type="submit" value="Wstaw"/>
+    </form>
+</div>
+</div>
+
+{% endblock %}
