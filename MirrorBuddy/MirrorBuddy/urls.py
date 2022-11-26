@@ -15,15 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from map.views import Home
+from map.views import Home, map_finder
 from spotted.views import spotted_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     #map urls - home view included
     path('', Home.as_view(), name='home'),
+    path('map', map_finder, name='map-main'),
 
-    
     #spotted views:
     path('spotted/', spotted_view, name='spottedapp')
 
