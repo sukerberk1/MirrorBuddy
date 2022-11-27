@@ -10,7 +10,7 @@ def spotted_view(request):
         if form.is_valid():
             e = Entry()
             e.text = form.cleaned_data['text']
-            if e.nickname:
+            if e.nickname!='':
                 e.nickname = form.cleaned_data['nickname']
             else:
                 e.nickname = 'Anonim'
