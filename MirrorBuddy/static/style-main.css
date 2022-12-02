@@ -57,7 +57,9 @@ body{
     text-align: center;
     margin: 5px 0 5px 0; 
 }
-
+.nav-button img{
+    max-width: 5rem;
+}
 .nav-button >li >i{
     font-size: 1.5rem;
 }
