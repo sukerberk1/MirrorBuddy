@@ -1,13 +1,37 @@
 {% extends 'base.html' %}
 
-{% block dynamic_links %}
+{% load static %}
 
+{% block dynamic_links %}
+<link rel="stylesheet" href="{% static 'style-mapfinder.css' %}"/>
 {% endblock %}
 
 {% block content %}
-<div class="content-box">
-    <form method="GET">
-        {{form}}
-    </form>
+
+        <form method="GET">
+            {% csrf_token %}
+            <input type="text" name="search" placeholder="Szukaj..."/><br/>
+            <button type="submit">Znajdź</button>
+        </form>
+    <div class="teacher-list">
+        {% for person in data %}
+        <div class="teacher-wrapper">
+            <h3>{{person.name}}</h3>
+            <p>{{person.position}}{% if person.additional_info %}, {{person.additional_info}}{% endif %}</p>
+            <p>Sala: {{person.classroom}}</p>
+        </div>
+        {% empty %}
+            <p class="no-results">Nie znalazłem nic, co pasowałoby do wyszkiwań...</p>
+        {% endfor %}
+    </div>
+
+
+<div class="hero" style="background-image:  url('{% static 'map.svg'%}');">
+    <h2>*W przyszłości wyniki będę wyświetlać na mapie szkoły :)</h2>
+    <div class="image-blur"></div>
+    
+    <a href="http://www.freepik.com" style="visibility: hidden;">Designed by Freepik</a>
 </div>
+
+
 {% endblock %}

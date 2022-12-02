@@ -1,0 +1,57 @@
+form{
+    text-align: center;
+}
+form input{
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+form button{
+    padding: 8px;
+    border-radius: 5px;
+    margin: 16px;
+    width: 35%;
+}
+
+.teacher-list{
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+
+.no-results{
+    text-align: center;
+}
+.teacher-wrapper{
+    padding: 15px;
+    border-radius: 15px;
+    outline: 1px solid white;
+    margin: 0.75rem 0 0.75rem 0;
+}
+
+.hero{
+    margin-top: auto;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 30%;
+    background-position: center;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    filter: grayscale(0.4);
+    display: grid;
+  justify-content: center;
+  align-content: center;
+    backdrop-filter: blur(200px);
+}
+.hero h2{
+    background-color: rgba(0,0,0,0.4);
+    padding: 1rem;
+}
+/* editing main css */
+.container-content{
+    display: flex;
+    flex-flow: column;
+}

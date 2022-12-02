@@ -1,0 +1,39 @@
+form{
+    text-align: center;
+}
+form input{
+    box-sizing: border-box;
+    padding: 8px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+form button{
+    padding: 8px;
+    border-radius: 5px;
+    margin: 16px;
+    width: 35%;
+}
+
+.smile-img{
+    width: 100%;
+    text-align: center;
+}
+.smile-img img{
+    opacity: 0.3;
+    width: 90%;
+}
+
+.hero{
+    padding: 1rem;
+}
+.hero .chatbox{
+    padding: 1rem;
+    outline: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.hero i{
+    font-size: 2rem;
+}

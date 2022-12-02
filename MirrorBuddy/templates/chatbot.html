@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block dynamic_links %}
+<link rel="stylesheet" href="{% static 'style-chatbot.css' %}"/>
+{% endblock %}
+
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" name="message" placeholder="Napisz coś do mnie..." autocomplete="off"/><br/>
+    <button type="submit">Wyślij</button>
+</form>
+
+<div class="smile-img">
+    <img src="{% static 'smile.svg' %}"/>
+</div>
+<div class="hero">
+    <div class="chatbox">
+        <i class="bi bi-chat-square-dots"></i> <br/>{{botresponse}}
+    </div>
+    
+</div>
+
+{% endblock %}

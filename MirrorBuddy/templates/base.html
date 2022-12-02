@@ -18,28 +18,42 @@
 </head>
 <body>
     <div class="container-full">
-        <div id="clock">
-            <!-- script effect -->
-        </div>
-        {% block content %}
 
-        {% endblock %}
         <nav class="main-nav">
             <ul>
-                <a class="nav-button side left-button" href="{% url 'map-main' %}">
+                <a class="nav-button" href="{% url 'map-main' %}">
                 <li ><i class="bi bi-map"></i>
                     <br/> Znajdź </li>
                 </a>
-                <a class="nav-button" href="{% url 'home' %}">
+                <a class="nav-button" href="{% url 'chatbot' %}">
                 <li ><i class="bi bi-chat-dots"></i>
                     <br/> Porozmawiaj </li>
                 </a>
-                <a class="nav-button side" href="{% url 'spottedapp' %}">
+                <a class="nav-button" href="{% url 'spottedapp' %}">
                 <li ><i class="bi bi-postcard"></i>
                     <br/> Spotted </li>
                 </a>
+                <a class="nav-button" href="{% url 'mirror-selfie' %}">
+                    <li ><i class="bi bi-camera"></i>
+                        <br/> MirrorSelfie </li>
+                    </a>
             </ul>
         </nav>
+
+        <div class="container-content">
+            <div id="clock">
+                <!-- script effect -->
+            </div>
+
+            {% block content %}
+
+            {% endblock %}
+
+        </div>
+
+        
+        
+        
 
     </div>
 
