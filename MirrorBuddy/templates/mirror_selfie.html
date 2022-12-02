@@ -10,4 +10,18 @@
 {% block content %}
 
 
+<ul id="filter-choices">
+    <li class="filter-button">
+        <button onclick="filter(1)">Kwiaty</button>
+    </li>
+    <li class="filter-button">
+        <button onclick="filter(2)">Wiśnie</button>
+    </li>
+    <li class="filter-button">
+        <button onclick="filter(3)">Czyste lustro</button>
+    </li>
+</ul>
+
+
+<script src="{% static 'filters.js' %}"></script>
 {% endblock %}
