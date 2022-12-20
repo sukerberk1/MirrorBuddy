@@ -16,16 +16,19 @@ form button{
     width: 35%;
 }
 
-.teacher-list{
+.main-list{
     padding: 15px;
     overflow-y: scroll;
 }
 
 
-.no-results{
+.text-center{
     text-align: center;
 }
-.teacher-wrapper{
+.upper{
+    text-transform: uppercase;
+}
+.item-wrapper{
     padding: 15px;
     border-radius: 15px;
     outline: 1px solid white;
@@ -51,6 +54,14 @@ form button{
     padding: 1rem;
 }
 
+table{
+    border-collapse: collapse;
+    border: 1px dotted white;
+}
+table td{
+    border: 1px dotted white;
+    padding: 0.5rem
+}
 
 /* editing main css */
 .container-content{

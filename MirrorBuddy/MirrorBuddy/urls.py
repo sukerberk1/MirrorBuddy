@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from map.views import Home, map_finder, MirrorSelfie
+from map.views import Home, map_finder, schedule_finder, schedule_specific
 from spotted.views import spotted_view
 from chatbot.views import chatbot_view
 
@@ -24,7 +24,9 @@ urlpatterns = [
     #map urls - mapfinder and all generic views down here
     path('', Home.as_view(), name='home'),
     path('map', map_finder, name='map-main'),
-    path('mirrorselfie', MirrorSelfie.as_view(), name='mirror-selfie'),
+    # lesson plan views
+    path('plan-lekcji', schedule_finder, name='schedule-finder'),
+    path('plan-lekcji/<slug>', schedule_specific, name='schedule-specific'),
 
     #spotted view:
     path('spotted/', spotted_view, name='spottedapp'),

@@ -23,23 +23,24 @@
             <ul>
                 <a class="nav-button" href="{% url 'home' %}">
                     <img src="{% static 'logo.png' %}"/>
+                </a>
+                <a class="nav-button" href="{% url 'chatbot' %}">
+                    <li ><i class="bi bi-chat-dots"></i>
+                        <br/> Porozmawiaj </li>
                     </a>
+                    <a class="nav-button" href="{% url 'spottedapp' %}">
+                        <li ><i class="bi bi-postcard"></i>
+                            <br/> Spotted </li>
+                        </a>
+
                 <a class="nav-button" href="{% url 'map-main' %}">
                 <li ><i class="bi bi-map"></i>
                     <br/> Znajdź </li>
                 </a>
-                <a class="nav-button" href="{% url 'chatbot' %}">
-                <li ><i class="bi bi-chat-dots"></i>
-                    <br/> Porozmawiaj </li>
+                <a class="nav-button" href="{% url 'schedule-finder' %}">
+                <li> <i class="bi bi-mortarboard-fill"></i>
+                        <br/> Plany Lekcji </li>
                 </a>
-                <a class="nav-button" href="{% url 'spottedapp' %}">
-                <li ><i class="bi bi-postcard"></i>
-                    <br/> Spotted </li>
-                </a>
-                <a class="nav-button" href="{% url 'mirror-selfie' %}">
-                    <li ><i class="bi bi-camera"></i>
-                        <br/> MirrorSelfie </li>
-                    </a>
             </ul>
         </nav>
 

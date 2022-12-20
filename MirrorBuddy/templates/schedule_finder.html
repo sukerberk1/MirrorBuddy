@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block dynamic_links %}
+<link rel="stylesheet" href="{% static 'style-mapfinder.css' %}"/>
+{% endblock %}
+
+
+{% block content %}
+
+<form method="GET">
+    {% csrf_token %}
+    <input type="text" name="search" placeholder="Szukaj..." autocomplete="off"/><br/>
+    <button type="submit">Znajdź</button>
+</form>
+<div class="main-list">
+{% for item in data %}
+<a>
+<div class="item-wrapper text-center upper">
+    <h3>{{item.0}}</h3>
+    <p>{{item.1}}</p>
+</div>
+</a>
+{% empty %}
+    <p class="text-center">Nie znalazłem nic, co pasowałoby do wyszkiwań...</p>
+{% endfor %}
+</div>
+
+
+
+{% endblock %}

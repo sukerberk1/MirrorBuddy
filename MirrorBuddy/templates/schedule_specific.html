@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block dynamic_links %}
+<link rel="stylesheet" href="{% static 'style-mapfinder.css' %}"/>
+{% endblock %}
+
+
+{% block content %}
+
+<h1>{{schedule.0}}</h1>
+<table class="main-list">
+    <tr>
+        <td></td><th>Godziny</th><th>Poniedziałek</th><th>Wtorek</th><th>Środa</th><th>Czwartek</th><th>Piątek</th>
+    </tr>
+{% for row in schedule.1 %}
+<tr>
+    {% for cell in row %}
+        <td>{% if cell is not None %}{{ cell }}{% endif %}</td>
+    {% endfor %}
+</tr>
+{% empty %}
+    <p class="text-center">Nie znalazłem nic, co pasowałoby do wyszkiwań...</p>
+{% endfor %}
+</table>
+{{data}}
+</div>
+
+
+
+{% endblock %}
