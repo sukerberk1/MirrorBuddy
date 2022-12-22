@@ -59,3 +59,36 @@ def get_headings_fast():
             info = link.get_text(), link_parameter
         data.append(info)
     return data
+
+
+"""Function reformats the schedule from gather_schedule()"""
+def reformat_schedule(plan):
+    max_len = 0
+    weekdays = ['','Poniedziałek','Wtorek', 'Środa','Czwartek','Piątek']
+    schedule_done = []
+    for row in plan:
+        if len(row) >= max_len:
+            max_len = len(row)
+    for i in range(1,max_len):
+        new_row = []
+        for item in plan:
+            new_row.append(item[i])
+        schedule_done.append(new_row)
+    # now insert weekdays at the begining of every column:
+    for i in range(len(schedule_done)):
+        schedule_done[i].insert(0,weekdays[i])
+    return schedule_done
+
+
+"""Function removes nan values from the plan"""
+def validate_schedule(plan):
+    validated = []
+    for row in plan:
+        new_row = []
+        for field in row:
+            if type(field) != str:
+                new_row.append('')
+            else: new_row.append(field)
+        validated.append(new_row)
+
+    return validated 

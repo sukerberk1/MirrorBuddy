@@ -16,7 +16,7 @@
 </form>
 <div class="main-list">
 {% for item in data %}
-<a>
+<a href="{% url 'schedule-specific' item.1 %}">
 <div class="item-wrapper text-center upper">
     <h3>{{item.0}}</h3>
     <p>{{item.1}}</p>

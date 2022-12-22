@@ -21,6 +21,11 @@ form button{
     overflow-y: scroll;
 }
 
+.main-schedule{
+    padding: 15px;
+    display: flex;
+    max-width: 30rem;
+}
 
 .text-center{
     text-align: center;
@@ -54,15 +59,33 @@ form button{
     padding: 1rem;
 }
 
-table{
-    border-collapse: collapse;
-    border: 1px dotted white;
+.table-elems{
+    display: flex;
+    flex-flow: column;
 }
-table td{
-    border: 1px dotted white;
-    padding: 0.5rem
+.elem{
+    display: block;
+    flex-basis: 3rem;
+    outline: 1px solid white;
+    padding: 1em;
+    text-align: center;
 }
-
+.schedules{
+    display: flex;
+    flex: 1;
+    position: relative;
+    overflow-x: scroll;
+}
+.schedules-item{
+    display: flex;
+    flex-flow: column;
+    flex:1;
+    min-width: 22rem;
+}
+.table-header{
+    text-transform: uppercase;
+    outline: 1px dashed white;
+}
 /* editing main css */
 .container-content{
     display: flex;

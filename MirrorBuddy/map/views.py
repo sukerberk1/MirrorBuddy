@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.base import TemplateView
 from .models import Teacher
-from misc.gather_data import gather_schedule, get_headings_fast
+from misc.get_data import gather_schedule, get_headings_fast, validate_schedule, reformat_schedule
 
 # Create your views here.
 
@@ -29,9 +29,14 @@ def schedule_finder(request):
         data = data_temp
     return render(request, 'schedule_finder.html', {'data': data})
 
+
 def schedule_specific(request, slug):
     if len(slug)<5:
-        schedule = gather_schedule(slug)
+        data = gather_schedule(slug)
     else:
-        schedule = []
-    return render(request, 'schedule_specific.html', {'schedule': schedule})
+        data = []
+    # schedule var is a list consisting of title and a plan
+    heading = data[0]
+    schedule = validate_schedule(data[1]) # removes nan values and leaves strings only
+    schedule = reformat_schedule(schedule) # reformats ([row],[row]..) to ([column], [column]..)
+    return render(request, 'schedule_specific.html', {'schedule': schedule, 'heading': heading })

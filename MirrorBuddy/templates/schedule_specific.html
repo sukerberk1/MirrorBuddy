@@ -9,24 +9,30 @@
 
 {% block content %}
 
-<h1>{{schedule.0}}</h1>
-<table class="main-list">
-    <tr>
-        <td></td><th>Godziny</th><th>Poniedziałek</th><th>Wtorek</th><th>Środa</th><th>Czwartek</th><th>Piątek</th>
-    </tr>
-{% for row in schedule.1 %}
-<tr>
-    {% for cell in row %}
-        <td>{% if cell is not None %}{{ cell }}{% endif %}</td>
-    {% endfor %}
-</tr>
-{% empty %}
-    <p class="text-center">Nie znalazłem nic, co pasowałoby do wyszkiwań...</p>
-{% endfor %}
-</table>
-{{data}}
+
+<h1 class="text-center">{{heading}}</h1>
+
+<div class="main-schedule">
+        <div class="table-elems">
+            {% for item in schedule.0 %}
+            <div class="elem">{{item}}</div>
+            {% endfor %}
+        </div>
+        <div class="schedules">
+            {% for item in schedule %}
+                {% if forloop.counter > 1 %}
+                <div class="schedules-item">
+                    {% for les in item %}
+                    {% if forloop.counter == 1 %}
+                    <div class="elem table-header"><b>{{les}}</b></div>
+                    {% else %}
+                    <div class="elem">{{les}}</div>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+            
+            {% endfor%}
+        </div>
 </div>
-
-
-
 {% endblock %}
