@@ -92,3 +92,38 @@ def validate_schedule(plan):
         validated.append(new_row)
 
     return validated 
+
+
+"""News functions down here"""
+def gather_List(strona):
+    list = [[None for x in range(3)] for x in range(12)]
+    url = f"https://tm1.edu.pl/page/{strona}"
+    page = requests.get(url)
+    # print(page.text)
+    soup = BeautifulSoup(page.content.decode('utf-8'), "html.parser")
+    results = soup.find(id="posts")
+    # print(results.prettify())
+    elements = results.find_all("a", class_="tile article-tile")
+    i = 0
+    for element in elements:
+        title_element = element.find('h3')
+        post_date = element.find(class_="post-date")
+        description_element = element.find(class_="post-content")
+        # try:
+        #     title_element = title_element.strip('<strong>/')
+        # except AttributeError:
+        #     title_element = "BRAK"
+        # try:
+        #     description_element = description_element.text.strip('<p>/')
+        # except AttributeError:
+        #     description_element = "BRAK"
+        list[i][0] = cut_special_signs(title_element.get_text())
+        list[i][1] = cut_special_signs(post_date.get_text())
+        list[i][2] = cut_special_signs(description_element.get_text())
+        i += 1
+    return list
+
+
+# to cut backslash signs from news list
+def cut_special_signs(string):
+    return string.replace('\xa0',' ').replace('\n',' ')

@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block dynamic_links %}
+<link rel="stylesheet" href="{% static 'style-mapfinder.css' %}"/>
+{% endblock %}
+
+
+{% block content %}
+
+<div class="main-list article-list">
+
+{% for article in data %}
+<article>
+    <h2>{{article.0}}</h2>
+    <span>{{article.1}}</span>
+    <p>{{article.2}}</p>
+</article>
+{% endfor %}
+
+<div class="b-nav">
+    {% for index in news_range %}
+    {% if index == current %}
+        <a href="{% url 'news' index %}" class="nav-index active">{{index}}</a>
+    {% else %}
+        <a href="{% url 'news' index %}" class="nav-index">{{index}}</a>
+    {% endif %}
+    {% endfor %}
+</div>
+</div>
+
+
+
+{% endblock %}

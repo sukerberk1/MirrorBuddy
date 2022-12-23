@@ -24,7 +24,6 @@ form button{
 .main-schedule{
     padding: 15px;
     display: flex;
-    max-width: 30rem;
 }
 
 .text-center{
@@ -59,6 +58,7 @@ form button{
     padding: 1rem;
 }
 
+/* schedules styling */
 .table-elems{
     display: flex;
     flex-flow: column;
@@ -86,8 +86,37 @@ form button{
     text-transform: uppercase;
     outline: 1px dashed white;
 }
+/* articles page styling */
+.article-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+}
+.b-nav{
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.b-nav .nav-index{
+    padding: 1rem;
+    outline: 1px solid white;
+}
+.nav-index.active{
+    background-color: white;
+    color: black;
+}
+
 /* editing main css */
 .container-content{
     display: flex;
     flex-flow: column;
 }
+
+@media (max-width: 868px) {
+    .main-schedule{
+        max-width: 30rem;
+    }
+  }

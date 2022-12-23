@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from map.views import Home, map_finder, schedule_finder, schedule_specific
+from map.views import Home, map_finder, schedule_finder, schedule_specific, news_view
 from spotted.views import spotted_view
 from chatbot.views import chatbot_view
 
@@ -27,6 +27,8 @@ urlpatterns = [
     # lesson plan views
     path('plan-lekcji', schedule_finder, name='schedule-finder'),
     path('plan-lekcji/<slug>', schedule_specific, name='schedule-specific'),
+    # news view:
+    path('news/<int:pid>', news_view, name='news'),
 
     #spotted view:
     path('spotted/', spotted_view, name='spottedapp'),
