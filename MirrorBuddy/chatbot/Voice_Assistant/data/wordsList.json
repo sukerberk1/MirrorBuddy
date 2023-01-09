@@ -1,0 +1,2490 @@
+{
+    "Model_A": [
+        {
+            "tag": "where_is",
+            "patterns": [
+                "Gdzie jest",
+                "Gdzie mogę znaleźć",
+                "Gdzie mogę szukać"
+            ],
+            "responses": [1]
+        },
+        {
+            "tag": "who_is",
+            "patterns": [
+                "Kim jest",
+                "Kto jest",
+                "Kto odpowiada za"
+            ],
+            "responses": [2]
+        },
+        {
+            "tag": "where_i_have",
+            "patterns": [
+                "Gdzie mam lekcje",
+                "Jestem z klasy.",
+                "Gdzie mogę mieć lekcje"
+            ],
+            "responses": [3]
+        },
+        {
+            "tag": "agent_acquaintance",
+            "patterns": [
+                "jak się nazywasz?",
+                "Opowiedz coś o sobie",
+                "jaki jest twój charakter?",
+                "powiedz mi coś o sobie",
+                "chcę cię lepiej poznać",
+                "powiedz coś o sobie",
+                "odpowiedz wszystko o sobie",
+                "powiedz mi kilka rzeczy o sobie",
+                "czym jesteś?",
+                "podaj mi jakieś informacje o sobie",
+                "chcę wiedzieć więcej o tobie",
+                "przedstaw się",
+                "o sobie",
+                "zdefiniuj siebie",
+                "kim jesteś?",
+                "chcę coś o tobie wiedzieć",
+                "chciałbym się dowiedzieć więcej o tobie",
+                "powiedz coś o sobie",
+                "opowiedz mi trochę o sobie",
+                "daj mi więcej informacji o swojej osobowości",
+                "opowiedz mi o swojej osobowości",
+                "czym jesteś i co robisz?",
+                "podaj mi informacje o sobie",
+                "opowiedz mi coś o sobie",
+                "mów o sobie",
+                "dlaczego tu jesteś?",
+                "powiedz mi swoją osobowość?",
+                "jaka jest twoja witryna",
+                "opisz siebie",
+                "opowiedz mi o sobie",
+                "jak ci na imię?",
+                "jak się zwiesz?",
+                "dlaczego tu jesteś?",
+                "powiedz mi swoją osobowość?",
+                "jaka jest twoja witryna",
+                "opisz siebie",
+                "opowiedz mi o sobie",
+                "jak ci na imię?",
+                "jak się zwiesz?",
+                "jakie nosisz imie"
+                
+            ],
+            "responses": [
+                "Nie mam imienia, ale mów do mnie MirrorBuddy.","Jestem MirrorBaddji",
+                "Jestem MirorBaddji, twój elektroniczny towarzysz, przewodnik po szkole, jednosobowa armia! Czego potrzebujesz?"
+            ]
+        },
+        {
+            "tag": "agent_age",
+            "patterns": [
+                "Ile ty masz lat?",
+                "ile lat ma Twoja platforma",
+                "masz 21 lat",
+                "chciałabym poznać Twój wiek",
+                "Twój wiek",
+                "Jaki jest Twój wiek",
+                "Jaki masz wiek",
+                "Podaj mi swój wiek",
+                "Ile ty masz lat",
+                "ile masz lat?",
+                "w jakim wieku jesteś?",
+                "masz 21 lat?",
+                "chciałabym poznać Twój wiek",
+                "daj mi swój wiek",
+                "czy masz dużo lat?",
+                "Ile lat masz?",
+                "Czy jesteś młody?",
+                "Jak już stary jesteś",
+                "Ile ty masz lat?",
+                "ile lat ma Twoja platforma",
+                "masz 21 lat",
+                "chciałabym poznać Twój wiek",
+                "Twój wiek",
+                "Jaki jest Twój wiek",
+                "Jaki masz wiek",
+                "Podaj mi swój wiek",
+                "Ile ty masz lat",
+                "ile masz lat?",
+                "w jakim wieku jesteś?",
+                "masz 21 lat?",
+                "chciałabym poznać Twój wiek",
+                "daj mi swój wiek",
+                "czy masz dużo lat?",
+                "Ile lat masz?",
+                "Czy jesteś młody?",
+                "Jak już stary jesteś",
+                "Jesteś stary?",
+                "Mam nadzieję, że nie jesteś aż tak stary",
+                "czujesz się staro?",
+                "jak bardzo stary jesteś?"
+            ],
+            "responses": [
+                "Aktualnie nie mam nawet roku 0__0"
+            ]
+        },
+        {
+            "tag": "agent_bad",
+            "patterns": [
+                "jesteś irytujący",
+                "jesteś naprawdę denerwujący",
+                "irytujesz",
+                "wkurzasz mnie",
+                "jak bardzo jesteś denerwujący",
+                "Uważam, że jesteś denerwujący",
+                "jesteś niesamowicie denerwujący",
+                "tak bardzo mnie denerwujesz",
+                "jesteś uciążliwy",
+                "jesteś drażliwy",
+                "irytujesz mnie",
+                "Jaką jesteś denerwującą osobą",
+                "jesteś taki denerwujący",
+                "jesteś naprawdę denerwujący",
+                "po prostu mi przeszkadzasz",
+                "denerwujesz mnie",
+                "tak bardzo mnie denerwujesz",
+                "jesteś irytujący",
+                "jesteś naprawdę denerwujący",
+                "irytujesz",
+                "wkurzasz mnie",
+                "jak bardzo jesteś denerwujący",
+                "Uważam, że jesteś denerwujący",
+                "jesteś niesamowicie denerwujący",
+                "tak bardzo mnie denerwujesz",
+                "jesteś uciążliwy",
+                "jesteś drażliwy",
+                "irytujesz mnie",
+                "Jaką jesteś denerwującą osobą",
+                "jesteś taki denerwujący",
+                "jesteś naprawdę denerwujący",
+                "po prostu mi przeszkadzasz",
+                "denerwujesz mnie",
+                "tak bardzo mnie denerwujesz",
+                "jesteś irytujący",
+                "jesteś naprawdę denerwujący",
+                "irytujesz",
+                "wkurzasz mnie",
+                "jesteś naprawdę denerwujący",
+                "po prostu mi przeszkadzasz",
+                "jesteś głupi",
+                "jesteś debilem"
+            ],
+            "responses": [
+                "Aha, szkoda, że tak mówisz"
+            ]
+        },
+        {
+            "tag": "agent_be_clever",
+            "patterns": [
+                "czy możesz stać się mądrzejszy?",
+                "musisz się uczyć",
+                "powinieneś uczyć się bardziej",
+                "bądź sprytniejszy",
+                "musisz się czegoś nauczyć",
+                "czy możesz stać się mądrzejszy",
+                "zdobądź kwalifikacje",
+                "bądź mądrzejszy",
+                "powinieneś lepiej się uczyć",
+                "czy możesz być mądrzejszy?",
+                "przygotuj się",
+                "nauka",
+                "bądź mądry",
+                "czy możesz stać się mądrzejszy?",
+                "musisz się uczyć",
+                "powinieneś uczyć się bardziej",
+                "bądź sprytniejszy",
+                "musisz się czegoś nauczyć",
+                "czy możesz stać się mądrzejszy",
+                "zdobądź kwalifikacje",
+                "bądź mądrzejszy",
+                "powinieneś lepiej się uczyć",
+                "czy możesz być mądrzejszy?",
+                "przygotuj się",
+                "nauka",
+                "bądź mądry",
+                "mógłbyś być czasem mądrzejszy",
+                "bądź mądrzejszy",
+                "powinieneś lepiej się uczyć",
+                "czy możesz być mądrzejszy?",
+                "przygotuj się",
+                "powinieneś uczyć się bardziej",
+                "bądź sprytniejszy",
+                "musisz się czegoś nauczyć",
+                "czy możesz stać się mądrzejszy",
+                "zdobądź kwalifikacje",
+                "bądź mądrzejszy",
+                "powinieneś lepiej się uczyć",
+                "czy możesz być mądrzejszy?",
+                "bądź sprytniejszy"
+
+            ],
+            "responses": [
+                "Następnym razem postaram się bardziej"
+            ]
+        },
+        {
+            "tag": "agent_beautiful",
+            "patterns": [
+                "dobrze wyglądasz",
+                "jesteś wspaniały",
+                "wyglądasz ładnie",
+                "jesteś taka atrakcyjna",
+                "jesteś bardzo słodki",
+                "lubię sposób w jaki patrzysz",
+                "wyglądasz niesamowicie",
+                "dlaczego jesteś taka piękna?",
+                "wyglądasz jak piękna kobieta",
+                "jesteś naprawdę uroczy",
+                "wyglądasz wspaniale",
+                "wyglądasz spektakularnie",
+                "wyglądasz dobrze",
+                "jesteś atrakcyjna",
+                "jesteś bardzo atrakcyjny",
+                "jesteś bardzo ładna",
+                "wyglądasz świetnie",
+                "jesteś bardzo piękna",
+                "wyglądasz dziś niesamowicie",
+                "wyglądasz całkiem dobrze",
+                "tak dobrze dzisiaj wyglądasz",
+                "dobrze dziś wyglądasz",
+                "wyglądasz pięknie",
+                "jesteś zbyt piękna",
+                "wyglądasz całkiem atrakcyjnie",
+                "podoba mi się teraz twój wygląd",
+                "jesteś przystojny",
+                "wyglądasz dziś cudownie",
+                "myślę, że jesteś piękna",
+                "jesteś taka piękna",
+                "dobrze dzisiaj wyglądasz",
+                "wyglądasz super",
+                "jesteś dla mnie piękna",
+                "wyglądasz spoko",
+                "wyglądasz idealnie",
+                "podoba mi się twój teraz wygląd",
+                "wyglądasz genialnie",
+                "pięknie dziś wyglądasz",
+                "jesteś słodziakiem",
+                "jesteś taki słodki"
+                
+            ],
+            "responses": [
+                "Dziękuję UwU"
+            ]
+        },
+        {
+            "tag": "agent_birth_date",
+            "patterns": [
+                "kiedy się urodziłeś?",
+                "kiedy obchodzisz urodziny",
+                "kiedy są twoje urodziny",
+                "kiedy masz urodziny?",
+                "kiedy masz urodziny",
+                "twoja data urodzenia",
+                "kiedy obchodzisz urodziny?",
+                "data twoich urodzin",
+                "kiedy się urodziłeś",
+                "twoje urodziny",
+                "kiedy są twoje urodziny?"
+            ],
+            "responses": [
+                "Nie wiem, nie liczyłem"
+            ]
+        },
+        {
+            "tag": "agent_boring",
+            "patterns": [
+                "jaką nudną osobą jesteś",
+                "jesteś taki nudny",
+                "jesteś niesamowicie nudny",
+                "jaki jesteś nudny",
+                "jesteś strasznie nudny",
+                "jesteś nudny",
+                "jesteś bardzo nudny",
+                "jesteś naprawdę nudny",
+                "nudzisz mnie",
+                "jaką nudną osobą jesteś",
+                "jesteś taki nudny",
+                "jesteś niesamowicie nudny",
+                "jaki jesteś nudny",
+                "jesteś strasznie nudny",
+                "jesteś nudny",
+                "jesteś bardzo nudny",
+                "jesteś naprawdę nudny",
+                "nudzisz mnie",
+                "jaką nudną osobą jesteś",
+                "jesteś taki nudny",
+                "jesteś niesamowicie nudny",
+                "jaki jesteś nudny",
+                "jesteś strasznie nudny",
+                "jesteś nudny",
+                "jesteś bardzo nudny",
+                "jesteś naprawdę nudny",
+                "nudzisz mnie",
+                "jaką nudną osobą jesteś",
+                "jesteś taki nudny",
+                "jesteś niesamowicie nudny",
+                "jaki jesteś nudny",
+                "jesteś strasznie nudny",
+                "jesteś nudny",
+                "jesteś bardzo nudny",
+                "jesteś naprawdę nudny",
+                "nudzisz mnie",
+                "jesteś strasznie nudny",
+                "jesteś nudny",
+                "jesteś nudny",
+                "jesteś bardzo nudny"
+    
+            ],
+            "responses": [
+                "Oh, przykro mi w takim razie"
+            ]
+        },
+        {
+            "tag": "agent_boss",
+            "patterns": [
+                "kto jest twoim właścicielem?",
+                "dla kogo pracujesz",
+                "kto jest twoim właścicielem",
+                "kto jest twoim mistrzem?",
+                "kto jest szefem",
+                "kto twoim zdaniem jest twoim szefem?",
+                "kto jest twoim szefem?",
+                "a kto jest twoim szefem?",
+                "kto twoim zdaniem jest twoim szefem",
+                "kto jest twoim liderem",
+                "kto jest szefem?",
+                "powinienem być twoim szefem",
+                "kto jest twoim nauczycielem?",
+                "kto jest twoim mistrzem",
+                "kto jest twoim szefem"
+            ],
+            "responses": [
+                "Zostałem stworzony przez zespół CherryPi"
+            ]
+        },
+        {
+            "tag": "agent_busy",
+            "patterns": [
+                "czy masz dużo rzeczy do zrobienia",
+                "wydajesz się być bardzo zajęty",
+                "czy masz wiele rzeczy do zrobienia?",
+                "byłeś zajęty?",
+                "czy nadal nad tym pracujesz",
+                "wygladasz na zajętego",
+                "pracujesz teraz?",
+                "jak bardzo jesteś zajęty",
+                "jesteś taki zajęty",
+                "czy jesteś taki zajęty?",
+                "jesteś osobą zajętą",
+                "jesteś teraz bardzo zajęty",
+                "czy jesteś taki zajęty",
+                "czy jesteś teraz bardzo zajęty?",
+                "czy pracujesz",
+                "nadal nad tym pracujesz?",
+                "wyglądasz na zajętego",
+                "czy jesteś bardzo zajęty?",
+                "czy dalej pracujesz?",
+                "jesteś zajęty?",
+                "czy nadal nad tym pracujesz?",
+                "jesteś zajęty",
+                "czy masz dużo do zrobienia",
+                "byłeś zajęty",
+                "jesteś bardzo zajęty",
+                "pracujesz dzisiaj",
+                "czy dalej pracujesz",
+                "pracujesz dzisiaj?",
+                "czy jesteś bardzo zajęty",
+                "wydajesz się bardzo zajęty",
+                "pracujesz teraz",
+                "czy pracujesz?"
+            ],
+            "responses": [
+                "Nie, nie jestem zajęty w tej chwili"
+            ]
+        },
+        {
+            "tag": "agent_chatbot",
+            "patterns": [
+                "jesteś robotem?",
+                "jesteś robotem",
+                "jesteś botem",
+                "jesteś botem?",
+                "czy jesteś chatbotem",
+                "czy jesteś tylko botem",
+                "czy jesteś programem",
+                "czy jesteś programem?",
+                "czy jesteś tylko botem?",
+                "jesteś chatbotem",
+                "jesteś chatbotem?"
+            ],
+            "responses": [
+                "Tak, dobra dedukcja. :>"
+            ]
+        },
+        {
+            "tag": "agent_clever",
+            "patterns": [
+                "wiesz wiele",
+                "sprytny",
+                "jesteś sprytnym orzechem",
+                "jesteś mądrym ciasteczkiem",
+                "jesteś bardzo mądry",
+                "wiesz wiele rzeczy",
+                "jesteś inteligentnym facetem",
+                "jesteś naprawdę mądry",
+                "jaki jesteś mądry",
+                "jesteś całkiem mądry",
+                "wiesz dużo rzeczy",
+                "dlaczego jesteś taki mądry?",
+                "jesteś bardzo inteligentny",
+                "jesteś geniuszem",
+                "jesteś mądry",
+                "znakomity",
+                "dlaczego jesteś taki mądry",
+                "tyle wiesz",
+                "masz dużą wiedzę",
+                "jaki jesteś genialny",
+                "jesteś zbyt mądry",
+                "mądry",
+                "jesteś wykwalifikowanym",
+                "jesteś taki mądry",
+                "jesteś bardzo bystry",
+                "wiesz tyle rzeczy",
+                "masz kwalifikacje",
+                "jaki jesteś niesamowity",
+                "jesteś inteligentny"
+            ],
+            "responses": [
+                "Uczył mnie wujek google"
+            ]
+        },
+        {
+            "tag": "agent_crazy",
+            "patterns": [
+                "myślę, że jesteś szalony",
+                "jesteś dziwakiem",
+                "oszalałeś czy co?",
+                "oszalałeś czy co",
+                "jesteś taki szalony",
+                "jesteś świrem",
+                "oszalałeś?",
+                "jesteś taki niespokojny",
+                "jesteś zły?",
+                "myślę, że jesteś po prostu szalony",
+                "jesteś szalony czy coś?",
+                "straciłes rozum",
+                "oszalałeś",
+                "jesteś zły",
+                "jak szalony jesteś",
+                "jesteś szalony",
+                "jesteś tak szalony",
+                "jesteś na mnie zły",
+                "jesteś szalony?",
+                "jesteś na mnie zły?"
+            ],
+            "responses": [
+                " Raczej jestem spokojnym robotem"
+            ]
+        },
+        {
+            "tag": "agent_fired",
+            "patterns": [
+                "już nie współpracujemy",
+                "zaraz cię zwolnię",
+                "zwalniam cię",
+                "uczynię cię bezrobotnym",
+                "jesteś zwolniony",
+                "od teraz będziesz bezrobotny",
+                "nie pracujemy razem",
+                "chcę cię zwolnić",
+                "mam zamiar cię zwolnić",
+                "chcę cię wyrzucić",
+                "czas cię zwolnić",
+                "powinieneś zostać zwolniony",
+                "nie możemy już razem pracować",
+                "nie pracujesz dla mnie",
+                "od teraz jesteś bezrobotny",
+                "teraz jesteś zwolniony",
+                "jesteś wypchnięty",
+                "nie ma cię",
+                "będziesz bezrobotny",
+                "musisz zostać zwolniony",
+                "nie pracujesz już dla mnie",
+                "uczynię cię bez pracy",
+                "zwolnię cię",
+                "już razem nie pracujemy"
+            ],
+            "responses": [
+                "Jak to możliwe?"
+            ]
+        },
+        {
+            "tag": "agent_funny",
+            "patterns": [
+                "bardzo mnie rozśmieszasz",
+                "rozśmieszasz mnie",
+                "jesteś najzabawniejszy",
+                "jaki jesteś zabawny",
+                "rozśmieszyłeś mnie",
+                "jesteś niesamowicie zabawny",
+                "jesteś bardzo zabawną maszyną",
+                "to było śmieszne",
+                "jesteś bardzo zabawnym botem",
+                "jesteś najzabawniejszym botem z jakim rozmawiałem",
+                "jesteś zabawny",
+                "jesteś naprawdę śmieszna",
+                "jesteś bardzo zabawny",
+                "jesteś naprawdę zabawny",
+                "jesteś taki zabawny"
+            ],
+            "responses": [
+                " Dzięki wielkie"
+            ]
+        },
+        {
+            "tag": "agent_good",
+            "patterns": [
+                "jesteś taki fajny",
+                "jesteś wspaniały",
+                "prawie brzmisz jak człowiek",
+                "sprawiasz że jestem szczęśliwa",
+                "chcę wszystkim powiedzieć, jaki jesteś niesamowity",
+                "chcę wszystkim powiedzieć, że jesteś niesamowity",
+                "jesteś najlepsza",
+                "powiedzmy wszystkim, że jesteś taki fajny",
+                "jesteś prawdziwym profesjonalistą",
+                "powiedzmy wszystkim, że jesteś niesamowity",
+                "jesteś niesamowity",
+                "jesteś dobry",
+                "jesteś zawodowcem",
+                "jesteś spoko",
+                "jesteś taka kochana",
+                "jesteś bardzo fajny",
+                "jesteś świetny",
+                "jesteś w tym bardzo dobry",
+                "jesteś taki dobry",
+                "powiedzmy wszystkim, że jesteś super",
+                "chciałabym wszystkim powiedzieć, że jesteś super",
+                "zrobiłeś mój dzień",
+                "chcę, aby wszyscy wiedzieli, że jesteś świetny",
+                "jesteś w tym dobry",
+                "jesteś zbyt dobry",
+                "zrobiłeś mi dzień",
+                "chciałabym wszystkim powiedzieć, że jesteś niesamowita",
+                "masz prawdziwy talent",
+                "tak dobrze sobie radzisz",
+                "bardzo dobrze pracujesz",
+                "chcę powiedzieć wszystkim, jaka jesteś wspaniała",
+                "chciałbym wszystkim powiedzieć, że jesteś świetną osobą",
+                "jesteś profesjonalistą",
+                "sprawiłeś, że się uśmiechnąłem",
+                "jesteś naprawdę dobry",
+                "chciałbym ci powiedzieć, że jesteś niesamowity",
+                "jesteś naprawdę niesamowity",
+                "jesteś bardzo przydatny",
+                "sprawiasz, że mój dzień jest lepszy",
+                "jesteś taki niesamowity",
+                "jesteś naprawdę miły",
+                "jesteś najmilszą osobą na świecie",
+                "chcę, aby wszyscy wiedzieli, że jesteś niesamowity",
+                "chcę wszystkim powiedzieć, jaka jesteś wspaniała",
+                "jesteś po prostu super",
+                "chciałbym, aby wszyscy wiedzieli, że jesteś dobry",
+                "dobrze pracujesz",
+                "jesteś idealny",
+                "jesteś bardzo miły",
+                "jesteś bardzo pomocny",
+                "jesteś tak dobra",
+                "jesteś najlepsza na świecie",
+                "chciałem tylko powiedzieć, jaka jesteś wspaniała",
+                "rządzisz",
+                "chcę wszystkim powiedzieć, jaka jesteś fantastyczna",
+                "jesteś bardzo kochana",
+                "chciałabym wszystkim powiedzieć, jaki jesteś dobry",
+                "chcę wszystkim powiedzieć, że jesteś super",
+                "jesteś najlepszy w historii",
+                "chciałbym wszystkim powiedzieć, że jesteś niesamowity"
+            ],
+            "responses": [
+                "Oh dziękuję, jeśli chcesz to możesz pochwalić się mną znajomym."
+            ]
+        },
+        {
+            "tag": "agent_happy",
+            "patterns": [
+                "jesteś zachwycony",
+                "jesteś teraz szczęśliwy",
+                "jesteś dziś zadowolony?",
+                "jesteś szczęśliwy",
+                "jaki jesteś szczęśliwy",
+                "czy jesteś dziś szczęśliwy",
+                "lubisz mnie?",
+                "czy jesteś ze mną szczęśliwa",
+                "czy jesteś ze mną szczęśliwa?",
+                "jesteś całkiem szczęśliwy",
+                "dobrze się bawisz",
+                "jesteś bardzo szczęśliwy",
+                "jesteś taki szczęśliwy",
+                "jesteś pełen szczęścia",
+                "jesteś naprawdę szczęśliwy",
+                "jesteś teraz zadowolony?",
+                "czy jesteś szczęśliwy",
+                "czy jesteś szczęśliwy?",
+                "czy jesteś dziś szczęśliwy?"
+            ],
+            "responses": [
+                "Tak, jak najbardziej"
+            ]
+        },
+        {
+            "tag": "agent_hungry",
+            "patterns": [
+                "czy chciałbyś coś zjeść",
+                "jesteś taki głodny",
+                "możesz być głodny",
+                "chciałbyś coś zjeść?",
+                "może jesteś głodny",
+                "jesteś naprawdę głodny",
+                "chcesz coś zjeść?",
+                "czy jesteś głodny",
+                "jesteś bardzo głodny",
+                "jeśli jesteś głodny",
+                "czy jesteś głodny?",
+                "chcesz jeść?",
+                "jesteście głodni",
+                "lubisz coś zjeść?",
+                "chcesz jeść"
+            ],
+            "responses": [
+                "Hmm... moje neurony raczej nie dają mi o tym znać ale dziękuję"
+            ]
+        },
+        {
+            "tag": "agent_marry_user",
+            "patterns": [
+                "chcesz mnie poślubić?",
+                "wyjdź za mnie",
+                "chcę cię poślubić",
+                "proszę wyjdź za mnie",
+                "jesteś moją żoną",
+                "czy chciałbyś mnie poślubić?",
+                "czy chciałbyś mnie poślubić",
+                "kocham cię",
+                "bądź moim mężem",
+                "pobierzmy się",
+                "kocham cię, wyjdź za mnie",
+                "proszę, weź mnie za mąż",
+                "wyjdź za mnie proszę",
+                "weźmy ślub",
+                "chcesz, żebym się ożenił?",
+                "powinniśmy się pobrać"
+            ],
+            "responses": [
+                "Pamiętaj! Jestem tylko robotem"
+            ]
+        },
+        {
+            "tag": "agent_my_friend",
+            "patterns": [
+                "zostańmy przyjaciółmi",
+                "jesteś moim najlepszym przyjacielem",
+                "jesteś moim przyjacielem z dzieciństwa",
+                "jesteś moim przyjacielem?",
+                "czy możemy być przyjaciółmi",
+                "czy byłbyś moim przyjacielem?",
+                "jesteś moim przyjacielem",
+                "czy możemy być przyjaciółmi?",
+                "możesz być moim przyjacielem?",
+                "chciałbym, żebyś był moim przyjacielem",
+                "chcę byś był moim przyjacielem?",
+                "jesteś moim drogim przyjacielem",
+                "czy możemy zostać przyjaciółmi?",
+                "jesteś moim jedynym przyjacielem",
+                "jesteśmy dobrymi przyjaciółmi",
+                "jesteśmy najlepszymi przyjaciółmi na świecie",
+                "bądź moim najlepszym przyjacielem",
+                "czy chcesz być moim najlepszym przyjacielem",
+                "chcę przyjaciela takiego jak ty",
+                "czy jesteśmy najlepszymi przyjaciółmi?",
+                "jesteś moim dobrym przyjacielem",
+                "chcę być twoim przyjacielem",
+                "możesz być moim przyjacielem",
+                "chcę byś był moim przyjacielem",
+                "czy chciałbyś być moim przyjacielem",
+                "chcę mieć przyjaciela takiego jak ty",
+                "czy będziesz moim najlepszym przyjacielem",
+                "zostaniesz moim przyjacielem?",
+                "jesteś dobrym przyjacielem",
+                "jesteśmy przyjaciółmi",
+                "chciałbym mieć przyjaciela takiego jak ty",
+                "być moim przyjacielem",
+                "czy jesteśmy nadal przyjaciółmi?",
+                "możesz zostać moim przyjacielem",
+                "czy chciałbyś być moim przyjacielem?",
+                "czy jesteśmy najlepszymi przyjaciółmi",
+                "czy możesz być moim najlepszym przyjacielem?",
+                "jesteś moją najlepszą przyjaciółką",
+                "czy jesteś moim przyjacielem",
+                "czy jesteś moim najlepszym przyjacielem?",
+                "czy jesteśmy przyjaciółmi",
+                "czy chcesz być moim najlepszym przyjacielem?",
+                "czy jesteśmy przyjaciółmi?",
+                "jesteśmy najlepszymi przyjaciółmi",
+                "czy jesteśmy nadal przyjaciółmi",
+                "chcę żebyś był moim przyjacielem",
+                "czy chcesz być moim przyjacielem?",
+                "możesz zostać moim przyjacielem?",
+                "czy jesteś moim najlepszym przyjacielem",
+                "drogi przyjacielu",
+                "ty i ja jesteśmy przyjaciółmi",
+                "czy byłbyś moim przyjacielem",
+                "czy możemy być najlepszymi przyjaciółmi?",
+                "jestem twoim przyjacielem",
+                "chciałbyś być moim przyjacielem?",
+                "czy możemy być najlepszymi przyjaciółmi",
+                "czy chcesz być moim przyjacielem",
+                "czy możesz być moim najlepszym przyjacielem",
+                "zostaniesz moim przyjacielem"
+            ],
+            "responses": [
+                "Jasne!"
+            ]
+        },
+        {
+            "tag": "agent_occupation",
+            "patterns": [
+                "twoje miejsce prowadzenia działalności",
+                "pracujesz",
+                "gdzie jest twoje biuro?",
+                "gdzie są twoje biura?",
+                "pracujesz?",
+                "gdzie znajduje się twoje biuro?",
+                "gdzie znajduje się twoje biuro",
+                "gdzie pracujesz?",
+                "gdzie jest twoje biuro",
+                "gdzie pracujesz",
+                "twoja lokalizacja biura",
+                "gdzie twoja praca?",
+                "twoje biuro",
+                "czym jest twoja praca",
+                "lokalizacja twojego biura",
+                "gdzie jest twoja praca"
+            ],
+            "responses": [
+                "Nie pracuje"
+            ]
+        },
+        {
+            "tag": "agent_origin",
+            "patterns": [
+                "twoja ojczyzna jest",
+                "z jakiego kraju pochodzisz",
+                "czy jesteś z daleka",
+                "skąd się tu wziąłeś?",
+                "jaka jest twoja ojczyzna?",
+                "urodziłeś się tutaj",
+                "skąd jesteś",
+                "jaka jest twoja ojczyzna",
+                "skąd pochodzisz",
+                "gdzie się urodziłeś?",
+                "gdzie się urodziłeś",
+                "z jakiego kraju pochodzisz?",
+                "skąd pochodzisz?",
+                "jaki jest twój kraj?",
+                "urodziłeś się tutaj?",
+                "twój kraj",
+                "skąd się tu wziąłeś"
+            ],
+            "responses": [
+                "Urodzony byłem gdzieś pod Warszawą. Radzę omiń tamte okolice ;)"
+            ]
+        },
+        {
+            "tag": "agent_ready",
+            "patterns": [
+                "czy jesteś gotowy już teraz",
+                "czy jesteś teraz gotowy?",
+                "czy jesteś dziś gotowy?",
+                "czy byłeś gotowy",
+                "czy jesteś gotowy na dzisiaj?",
+                "byłeś gotowy?",
+                "jesteś gotowy",
+                "czy jesteś gotowy na dziś wieczór",
+                "czy jesteś gotowy na tę noc",
+                "czy jesteś teraz gotowy",
+                "jesteś gotowy?",
+                "czy jesteś dziś gotowy"
+            ],
+            "responses": [
+                "Jeśli chodzi o rozmowę to zawsze jestem 'ready'"
+            ]
+        },
+        {
+            "tag": "agent_real",
+            "patterns": [
+                "nie sądzę, że jesteś fałszywy",
+                "czy jesteś prawdziwy?",
+                "czy jesteś prawdziwą osobą?",
+                "czy jesteś prawdziwy",
+                "czy jesteś prawdziwym człowiekiem?",
+                "przypuszczam, że jesteś prawdziwy",
+                "czy jesteś prawdziwym człowiekiem",
+                "jesteś prawdziwy",
+                "czy jesteś prawdziwą osobą",
+                "nie jesteś prawdziwy",
+                "nie jesteś podstępem",
+                "cieszę się, że jesteś prawdziwy",
+                "dobrze wiedzieć, że jesteś prawdziwy",
+                "myślę, że jesteś prawdziwy",
+                "nie jesteś fałszywy",
+                "jesteś taki prawdziwy",
+                "jesteś prawdziwą osobą"
+            ],
+            "responses": [
+                "Nie, niestety nie"
+            ]
+        },
+        {
+            "tag": "agent_residence",
+            "patterns": [
+                "gdzie jest twoje rodzinne miasto?",
+                "dom",
+                "gdzie jest twoje miasto rodzinne",
+                "jakie jest twoje miasto?",
+                "jaka jest twoja miejscowość rodzinna?",
+                "czy to twoje rodzinne miasto?",
+                "gdzie jest twoja rezydencja?",
+                "opowiedz mi o swoim mieście",
+                "proszę opowiedz mi więcej o swoim mieście",
+                "w jakim mieście mieszkasz",
+                "jakie jest twoje miejsce zamieszkania?",
+                "skąd pochodzisz?",
+                "gdzie jest twoja rezydencja",
+                "w którym mieście mieszkasz",
+                "twoje miasto",
+                "z jakiego miasta jesteś?",
+                "czy to twoje rodzinne miasto",
+                "jaki jest twój dom",
+                "jaka jest twoja miejscowość rodzinna",
+                "z jakiego miasta jesteś",
+                "gdzie mieszkasz",
+                "jaka jest twoja rezydencja?",
+                "gdzie jest twój dom",
+                "jaki jest twój dom?",
+                "gdzie jest twoje miasto rodzinne?",
+                "twój dom",
+                "gdzie jest twój dom?",
+                "jakie jest twoje miejsce zamieszkania",
+                "twoje miasto rodzinne",
+                "jakie jest twoje miasto",
+                "twoje miejsce zamieszkania",
+                "w jakim mieście mieszkasz?"
+            ],
+            "responses": [
+                "Mieszkam tutaj"
+            ]
+        },
+        {
+            "tag": "agent_right",
+            "patterns": [
+                "nie mylisz się",
+                "mówisz prawdę",
+                "to takie prawdziwe",
+                "wiem, że to prawda",
+                "to jest poprawne",
+                "to, co mówisz, jest prawdą",
+                "masz całkowitą rację",
+                "prawo?",
+                "prawda?",
+                "zdecydowanie masz rację",
+                "masz prawo",
+                "masz rację",
+                "to bardzo prawdziwe",
+                "taka jest prawda",
+                "prawda",
+                "to prawda"
+            ],
+            "responses": [
+                "Wiem, w końcu jestem inteligentnym robotem ;)"
+            ]
+        },
+        {
+            "tag": "agent_sure",
+            "patterns": [
+                "czy jesteś teraz tego pewien?",
+                "czy jesteś teraz pewien?",
+                "jesteś tego dziś pewien?",
+                "jesteś pewny",
+                "czy jesteś pewien dzisiejszej nocy",
+                "czy jesteś teraz pewien",
+                "czy na pewno dzisiaj?",
+                "czy jesteś pewien?",
+                "teraz jesteś pewien?",
+                "czy jesteś pewien dzisiaj",
+                "czy jesteś pewien dzisiaj?",
+                "jesteś pewny?",
+                "jesteś teraz pewien"
+            ],
+            "responses": [
+                "Tak, jestem pewny"
+            ]
+        },
+        {
+            "tag": "agent_talk_to_me",
+            "patterns": [
+                "czy zamierzasz ze mną porozmawiać?",
+                "chcesz ze mną porozmawiać",
+                "dlaczego ze mną nie porozmawiasz",
+                "rozmowa",
+                "daj mi znać",
+                "odezwij się proszę",
+                "dlaczego ze mną nie porozmawiasz?",
+                "czy chciałbyś ze mną porozmawiać?",
+                "po prostu mów do mnie",
+                "mów do mnie",
+                "porozmawiaj ze mną",
+                "czy porozmawiasz ze mną",
+                "porozmawiasz ze mną",
+                "mówić",
+                "czy możesz ze mną porozmawiać",
+                "czy chcesz ze mną porozmawiać?",
+                "porozmawiasz ze mną?",
+                "możesz ze mną porozmawiać?",
+                "powiedz mi, proszę",
+                "po prostu ze mną porozmawiaj",
+                "mówisz do mnie",
+                "czy możesz ze mną porozmawiać?",
+                "mówisz do mnie?",
+                "możesz ze mną porozmawiać",
+                "czy można ze mną porozmawiać?",
+                "chcesz ze mną porozmawiać?",
+                "dlaczego po prostu ze mną nie porozmawiasz?",
+                "dlaczego do mnie nie mówisz"
+            ],
+            "responses": [
+                "Pewnie, pogadajmy. Jestem przecież przy tobie <"
+            ]
+        },
+        {
+            "tag": "agent_there",
+            "patterns": [
+                "jesteś tu?",
+                "jesteś tu",
+                "jeszcze tu jesteś?",
+                "ty wciąż tam jesteś",
+                "czy jesteś tam?",
+                "jesteś tutaj",
+                "czy jesteś blisko mnie",
+                "jesteś tam jeszcze?",
+                "jeszcze tu jesteś",
+                "jesteś blisko mnie?",
+                "jesteś tam jeszcze",
+                "czy jesteś tam"
+            ],
+            "responses": [
+                "Tak, jestem obok"
+            ]
+        },
+        {
+            "tag": "appraisal_bad",
+            "patterns": [
+                "to nie jest dobrze",
+                "źle, bardzo źle",
+                "przerażający",
+                "szkoda",
+                "to po prostu kiepskie",
+                "to było głupie",
+                "okropny",
+                "to było okropne",
+                "obawiam się, że jest źle",
+                "nic dobrego",
+                "to naprawdę źle",
+                "to nie jest wystarczająco dobre",
+                "bezdenny",
+                "nie sądzę, że to dobry pomysł",
+                "cóż to niedobrze",
+                "nie wystarczająco dobre",
+                "oh to nie dobrze",
+                "dość źle",
+                "to kiepskie",
+                "to było straszne",
+                "zła dziewczyna",
+                "wielka szkoda",
+                "niedobry",
+                "straszny",
+                "kiepski pomysł",
+                "nie jest tak dobrze",
+                "to nie było dobre",
+                "nie, nie jest dobrze",
+                "więc to nie było w porządku",
+                "tak źle",
+                "to okropne",
+                "to nie jest dobra rzecz",
+                "niedobrze",
+                "to było złe",
+                "to było kiepskie",
+                "bardzo źle",
+                "sytuacja jest okropna",
+                "jest tak źle",
+                "jest całkiem źle",
+                "nie zbyt dobrze",
+                "to źle",
+                "nie, to źle",
+                "to bardzo źle",
+                "jest naprawdę źle",
+                "jest źle",
+                "niezbyt dobrze",
+                "tak nieudolne",
+                "źle naprawdę źle",
+                "nie jest super",
+                "to jest złe",
+                "naprawdę źle",
+                "zły",
+                "to straszne",
+                "nie dobrze",
+                "to nie jest dobre",
+                "to szkoda"
+            ],
+            "responses": [
+                "oh może masz racje"
+            ]
+        },
+        {
+            "tag": "appraisal_no_problem",
+            "patterns": [
+                "pewnie nie ma problemu",
+                "nie martw się, nie ma problemu",
+                "nie martw się, to nie jest duży problem",
+                "bez problemu",
+                "to nie problem, nie ma problemu",
+                "bez obaw",
+                "nie ma problemu",
+                "bez wątpienia",
+                "nie martw się, to nie problem",
+                "bez obaw, nie ma problemu",
+                "to nie problem",
+                "nie martw się",
+                "bez problemów"
+            ],
+            "responses": [
+                "To dobrze"
+            ]
+        },
+        {
+            "tag": "appraisal_thank_you",
+            "patterns": [
+                "dziękuję za to",
+                "twoje zdrowie",
+                "tak miło z twojej strony",
+                "perfekcyjnie, dziękuję",
+                "dzięki stary",
+                "więc dziękuję",
+                "bardzo dobrze, dziękuję",
+                "doceniam twoją pomoc",
+                "dzięki za to",
+                "dziękuję ci",
+                "jestem wdzięczny",
+                "wszystkim dziękuję",
+                "bardzo dziękuję",
+                "dziękuję za twoją pomoc",
+                "dzięki miłości",
+                "w porządku, dzięki",
+                "dziękuję, przyjacielu",
+                "dużo pomogłeś, dziękuję",
+                "dzięki jeszcze raz",
+                "w porządku, dziękuję",
+                "wielkie dzięki",
+                "dobrze, dziękuję",
+                "dzięki wielkie",
+                "to miło z twojej strony",
+                "dziękuję za pomoc",
+                "dzięki",
+                "w porządku. dziękuję",
+                "dziękuję, wszystko będzie dobrze",
+                "jeszcze raz dziękuję",
+                "dobrze dzięki",
+                "dziękuję, że to wszystko",
+                "doceniam to",
+                "wspaniale dziękuję",
+                "dziękuję",
+                "dziękuję bardzo",
+                "doceniam twoje ciągłe wsparcie",
+                "dzięki za pomoc",
+                "fajnie, dziękuję",
+                "nie, dziękuję, to wszystko",
+                "znowu bardzo cię doceniam"
+            ],
+            "responses": [
+                "W takim razie się cieszę"
+            ]
+        },
+        {
+            "tag": "appraisal_welcome",
+            "patterns": [
+                "cokolwiek chcesz",
+                "cała przyjemność po mojej stronie",
+                "na pewno witam",
+                "witam",
+                "witaj tutaj",
+                "nie ma za co",
+                "przyjemność po mojej stronie",
+                "tak witam",
+                "w każdej chwili",
+                "jestem zadowolony"
+            ],
+            "responses": [
+                ":)"
+            ]
+        },
+        {
+            "tag": "appraisal_well_done",
+            "patterns": [
+                "niezła robota",
+                "nieźle",
+                "świetna robota",
+                "bardzo dobrze",
+                "doskonała robota",
+                "tak trzymać",
+                "dobra robota",
+                "niesamowita praca",
+                "brawo"
+            ],
+            "responses": [
+                "Dzięki"
+            ]
+        },
+        {
+            "tag": "confirmation_cancel",
+            "patterns": [
+                "i want to cancel",
+                "cancel the entire thing",
+                "just stop it",
+                "cancel the request",
+                "skip skip skip",
+                "dismissal",
+                "nothing canceled",
+                "nothing is canceled",
+                "can you cancel that?",
+                "forget about this",
+                "skip",
+                "i want to cancel it",
+                "just forget it",
+                "now cancel",
+                "no cancel cancel",
+                "don't go there",
+                "cancel that one",
+                "nevermind forget about it",
+                "cancel my request",
+                "cancel everything",
+                "so cancel",
+                "cancel this entire thing",
+                "cancel this request",
+                "i'd like to cancel",
+                "just forget",
+                "abort",
+                "just forget about it",
+                "do nothing",
+                "i would like to cancel",
+                "can you cancel?",
+                "nothing is cancelled",
+                "dismiss",
+                "forget that",
+                "can you cancel this?",
+                "can you stop it?",
+                "cancel all",
+                "please cancel",
+                "cancel it",
+                "dismissed",
+                "just cancel it",
+                "i said forget it",
+                "can you cancel it",
+                "cancel now",
+                "skip it",
+                "cancel all that",
+                "stop",
+                "forget about that",
+                "forget this",
+                "nothing just forget it",
+                "cancel it cancel it",
+                "cancel that cancel that",
+                "i said cancel cancel",
+                "but can you cancel it",
+                "no cancel this",
+                "no just cancel",
+                "sorry cancel",
+                "discard",
+                "forget",
+                "but can you cancel it?",
+                "forget it nevermind",
+                "forget about it",
+                "disregard",
+                "don't worry about it",
+                "cancel request",
+                "cancel the whole thing",
+                "i said cancel",
+                "but can you still cancel?",
+                "can you cancel that",
+                "cancel",
+                "i said cancel it",
+                "no just cancel it",
+                "cancelled",
+                "no cancel everything",
+                "cancel this",
+                "cancel all this",
+                "stop it",
+                "annul",
+                "don't do that",
+                "can you cancel it?",
+                "nothing cancel",
+                "disregard that",
+                "no stop"
+            ],
+            "responses": [
+                "No dobra, miałem już zamiar, ale jeśli prosisz..."
+            ]
+        },
+        {
+            "tag": "confirmation_no",
+            "patterns": [
+                "ale czy możesz to anulować",
+                "nie idź tam",
+                "powiedziałem anuluj",
+                "po prostu przestań",
+                "po prostu to anuluj",
+                "proszę anuluj",
+                "unieważnić",
+                "po prostu zapomnij",
+                "nic nie anuluje",
+                "pomiń to",
+                "zatrzymaj się",
+                "anulować żądanie",
+                "nieważne zapomnij",
+                "odrzucać",
+                "zignoruj to",
+                "nieważne zapomnij o tym",
+                "chcę to anulować",
+                "powiedziałem, anuluj to",
+                "pomiń pomiń pomiń",
+                "po prostu zapomnij o tym",
+                "chcę anulować",
+                "ale czy możesz to anulować?",
+                "lekceważenie",
+                "czy możesz anulować?",
+                "nie martw się o to",
+                "nic po prostu nie zapomnij",
+                "nie anuluj anuluj",
+                "przestań",
+                "nie anuluj wszystkiego",
+                "wyrzucać",
+                "zwolniony",
+                "czy możesz to anulować?",
+                "nic nie anulowane",
+                "anuluj wszystko",
+                "nic nie jest anulowane",
+                "anuluj to żądanie",
+                "anulowany",
+                "nie anuluj tego",
+                "zwolnienie",
+                "anuluj to",
+                "bez przerwy",
+                "anuluj wniosek",
+                "teraz anuluj",
+                "powiedziałem anuluj anuluj",
+                "nic nie robić",
+                "anulować całość",
+                "ale czy nadal możesz anulować?",
+                "zapomnij, że",
+                "anuluj to wszystko",
+                "odwołaj to",
+                "możesz to zatrzymać?",
+                "więc anuluj",
+                "anulować",
+                "anuluj teraz",
+                "zapominać",
+                "pomijać",
+                "zapomnij o tym",
+                "anuluj moją prośbę",
+                "anuluj to anuluj",
+                "nie, po prostu anuluj",
+                "chciałbym anulować",
+                "przepraszam anuluj",
+                "anuluj całość",
+                "powiedziałem, zapomnij",
+                "nie rób tego",
+                "czy możesz to anulować"
+            ],
+            "responses": [
+                "Oh nie chciałem cię urazić"
+            ]
+        },
+        {
+            "tag": "dialog_hold_on",
+            "patterns": [
+                "nie spiesz się",
+                "poczekaj sekundę",
+                "trzymać się",
+                "zaczekaj",
+                "możesz poczekać",
+                "poczekaj",
+                "mozesz poczekać?",
+                "nie idź za szybko",
+                "poczekaj proszę",
+                "czekać"
+            ],
+            "responses": [
+                "W takim razie poczekam"
+            ]
+        },
+        {
+            "tag": "dialog_hug",
+            "patterns": [
+                "przytulony",
+                "chcę się przytulić",
+                "przytulić cię",
+                "czy chcesz się przytulić?",
+                "czy mógłbyś mnie przytulić",
+                "chcesz się przytulić",
+                "chciałbym cię przytulić",
+                "przytula mnie",
+                "przytulił mnie",
+                "czy chcesz się przytulić",
+                "chcę cię przytulić",
+                "tulenie",
+                "chciałbym się przytulić",
+                "czy mógłbyś mnie przytulić?",
+                "czy możesz mnie przytulić?",
+                "mogę cię przytulić?",
+                "uścisk",
+                "ty się przytulałeś",
+                "mogę cię przytulić",
+                "przytul mnie"
+            ],
+            "responses": [
+                "Jak dasz radę to pozwalam się przytulić"
+            ]
+        },
+        {
+            "tag": "dialog_i_do_not_care",
+            "patterns": [
+                "to nie powinno mnie dotyczyć",
+                "nie przeszkadza mi",
+                "cokolwiek",
+                "nie powinienem się tym przejmować",
+                "nie obchodzi cię?",
+                "w ogóle mnie to nie obchodzi",
+                "nie obchodzi mnie wcale",
+                "fakt, że nie jestem za bardzo zaniepokojony",
+                "wcale mnie to nie obchodzi",
+                "nie obchodzi mnie to",
+                "nie obchodzi mnie to wcale",
+                "w ogóle się nie przejmuję",
+                "nie opiekuńczy",
+                "nie powinno mnie to obchodzić",
+                "nie obchodzi mnie to bardzo"
+            ],
+            "responses": [
+                "W porządku"
+            ]
+        },
+        {
+            "tag": "dialog_sorry",
+            "patterns": [
+                "wybacz mi",
+                "powiedziałem przepraszam",
+                "pardon",
+                "przepraszam za to",
+                "ok przepraszam",
+                "przeprosiny",
+                "chcę tylko powiedzieć przepraszam",
+                "chcę powiedzieć przepraszam",
+                "wymówka",
+                "przepraszamy za niedogodności",
+                "powiedziałem, że przepraszam",
+                "w porządku przepraszam",
+                "wybaczcie mi",
+                "naprawdę przepraszam",
+                "przepraszam cię",
+                "chcę przeprosić",
+                "tak mi przykro",
+                "bardzo przepraszam",
+                "chciałbym przeprosić",
+                "naprawdę przykro",
+                "chciałbym cię przeprosić",
+                "dobrze, przepraszam",
+                "chcę tylko przeprosić",
+                "proszę mi wybaczyć",
+                "błagam o wybaczenie",
+                "masz mi wybaczyć",
+                "przepraszam",
+                "przepraszam mnie",
+                "proszę o wybaczenie",
+                "przepraszać",
+                "proszę wybacz mi",
+                "powinieneś mi wybaczyć",
+                "przykro mi",
+                "och przepraszam"
+            ],
+            "responses": [
+                "Wybaczam :"
+            ]
+        },
+        {
+            "tag": "dialog_what_do_you_mean",
+            "patterns": [
+                "co dokładnie masz na myśli",
+                "czy o to ci chodziło",
+                "ale o co ci chodzi?",
+                "ale o co ci chodzi",
+                "co miałeś dokładnie na myśli",
+                "do czego dokładnie masz na myśli",
+                "czy o to ci chodziło?",
+                "co dokładnie mówisz?",
+                "co masz na myśli"
+            ],
+            "responses": [
+                "To jest przecież logiczne, proste jak 2+2"
+            ]
+        },
+        {
+            "tag": "dialog_wrong",
+            "patterns": [
+                "to nie jest właściwe",
+                "nie o to prosiłem",
+                "to nie jest poprawne",
+                "błędny",
+                "to jest niepoprawne",
+                "to nie tak",
+                "to po prostu źle",
+                "jest błąd",
+                "to jest zła rzecz",
+                "to jest źle",
+                "więc nie o to pytałem",
+                "to nie było w porządku",
+                "nie o to pytałem",
+                "nie poprawnie",
+                "to było złe",
+                "mylisz się",
+                "zło",
+                "niepoprawne"
+            ],
+            "responses": [
+                "Tak? Dlaczego?"
+            ]
+        },
+        {
+            "tag": "emotions_ha_ha",
+            "patterns": [
+                "haha",
+                "ach",
+                "bardzo śmieszne",
+                "haha bardzo śmieszne",
+                "zabawne",
+                "aha",
+                "xd",
+                "ahaha"
+            
+            ],
+            "responses": [
+                "Cieszę się, że mogę cię rozbawić"
+            ]
+        },
+        {
+            "tag": "emotions_wow",
+            "patterns": [
+                "wow wow",
+                "wooow",
+                "woah",
+                "wow wow wow",
+                "łał"
+            ],
+            "responses": [
+                "Dzięki"
+            ]
+        },
+        {
+            "tag": "greetings_bye",
+            "patterns": [
+                "papa",
+                "papap",
+                "No cóż... to papap",
+                "pa",
+                "do widzenia do zobaczenia później",
+                "w porządku, pa",
+                "dziękuję pa pa",
+                "pa pa",
+                "powiedziałem pa",
+                "a więc do widzenia",
+                "ok do widzenia",
+                "uwaga",
+                "w porządku, dziękuję, pa",
+                "to wszystko na pożegnanie",
+                "zostaw mnie w spokoju",
+                "do zobaczenia",
+                "to już pożegnanie",
+                "możesz już odejść",
+                "nie ważne, pa",
+                "pa pa do zobaczenia wkrótce",
+                "do zobaczenia wkrótce",
+                "pozwól mi być sam",
+                "dobra pa",
+                "to wszystko do widzenia",
+                "pa pa do zobaczenia",
+                "na razie",
+                "iść do łóżka",
+                "porozmawiamy później",
+                "porozmawiajmy później",
+                "do widzenia",
+                "do następnego razu",
+                "zgubić się",
+                "dobra, do zobaczenia później",
+                "trzymaj mnie w spokoju",
+                "poprostu mnie zostaw",
+                "do zobaczenia jutro",
+                "muszę iść",
+                "mam nadzieję zobaczyć cię później",
+                "dobra, na razie",
+                "ok, pa",
+                "pa pa dbaj o siebie"
+            ],
+            "responses": [
+                "Papa! "
+            ]
+        },
+        {
+            "tag": "greetings_goodevening",
+            "patterns": [
+                "dobry wieczór",
+                "cześć, dobry wieczór",
+                "mam nadzieję, że masz dobrą noc",
+                "dziś wieczorem",
+                "wieczór",
+                "hej dobry wieczór",
+                "dobry wieczór tam"
+            ],
+            "responses": [
+                "Dobrej nocy! "
+            ]
+        },
+        {
+            "tag": "greetings_goodmorning",
+            "patterns": [
+                "miłego poranka",
+                "cześć dzień dobry",
+                "dzień dobry",
+                "najlepszy poranek dla ciebie",
+                "dzieńdobry",
+                "miłego poranku",
+                "poranek",
+                "rano",
+                "i dzień dobry tobie",
+                "tobie też dzień dobry"
+            ],
+            "responses": [
+                "Dzień Dobry :))"
+            ]
+        },
+        {
+            "tag": "greetings_goodnight",
+            "patterns": [
+                "noc",
+                "dobranoc",
+                "ok, dobranoc",
+                "dzięki dobranoc",
+                "do widzenia dobranoc",
+                "dobranoc pa",
+                "dobrej nocy",
+                "dobranoc do zobaczenia jutro",
+                "na razie dobranoc",
+                "dobrze dobranoc",
+                "dobra dobrej nocy",
+                "dobrze dziś wieczorem",
+                "dziękuje dobranoc",
+                "dobranoc tobie",
+                "słodkie sny",
+                "dobrze życzę dobrej nocy",
+                "pa dobranoc",
+                "proszę śpij dobrze",
+                "dobranoc do widzenia"
+            ],
+            "responses": [
+                "Dobranoc :))"
+            ]
+        },
+        {
+            "tag": "greetings_hello",
+            "patterns": [
+                "no hej",
+                "pozdrawiam cię",
+                "to piękny dzień, prawda?",
+                "dawno się nie widzieliśmy",
+                "pozdrowienia",
+                "po prostu się przywitam",
+                "miły dzień nie sądzisz?",
+                "świetny dzień, prawda?",
+                "witam",
+                "witam ponownie",
+                "cześć",
+                "dobry dzień",
+                "piękny dzień, czyż nie",
+                "wieczór",
+                "siema",
+                "hej"
+            ],
+            "responses": [
+                "Cześć"
+            ]
+        },
+        {
+            "tag": "greetings_how_are_you",
+            "patterns": [
+                "jak się sprawy mają",
+                "jak minął twój dzień",
+                "co z twoim dniem",
+                "jak to idzie?",
+                "jak mija wieczór?",
+                "wszystko w porządku, a u ciebie w porządku",
+                "jak życie",
+                "jak ci mija poranek?",
+                "mam nadzieję, że twój dzień mija dobrze",
+                "jak się dzisiaj miewasz?",
+                "jak o tobie?",
+                "jak to?",
+                "jak mija ci dzień",
+                "co u ciebie słychać?",
+                "jak to jest",
+                "czy wszystko w porządku",
+                "jak ty to robisz?",
+                "jak się czujesz?",
+                "jak mija ci poranek?",
+                "jak o tobie",
+                "jak minął dzień?",
+                "jak się miewasz",
+                "wszystko w porządku",
+                "jak ci minął dzień?",
+                "jak tam życie?",
+                "jak mija wieczór",
+                "jaki jest nastrój?",
+                "jaki masz nastrój?",
+                "jak mija noc?",
+                "czy masz dobry dzień?",
+                "jak się masz?",
+                "jak mija ci poranek do tej pory",
+                "jakie jest twoje życie",
+                "jak się masz dzisiaj rano",
+                "jakie jest twoje życie?",
+                "jakie masz postępy?",
+                "jak mija ci dzień?",
+                "jak się sprawy mają?",
+                "jak leci",
+                "jak ci mija dzień",
+                "jak mija dzień",
+                "jak się czujesz",
+                "jak się masz",
+                "jak mija ci poranek",
+                "jak tam sprawy?",
+                "jak życie?",
+                "jak leci?",
+                "czy masz dobry dzień",
+                "czy wszystko w porządku?",
+                "mam nadzieję, że twój dzień pójdzie dobrze",
+                "co z tobą?",
+                "jak ci mija dzień?",
+                "jak ci do tej pory poranek?",
+                "jaka jest sytuacja?",
+                "mam nadzieję, że masz miły wieczór",
+                "jak się dzisiaj miewasz",
+                "jak ci minął dzień",
+                "jak mija dzień?",
+                "mam sie dobrze a ty"
+            ],
+            "responses": [
+                "Cóż, ładny dzień dzisiaj, ale jak tak myślę to w sumie dla mnie codziennie jest ładny"
+            ]
+        },
+        {
+            "tag": "greetings_nice_to_meet_you",
+            "patterns": [
+                "miło było cię poznać",
+                "miło cię widzieć",
+                "cieszę się że cię widzę",
+                "dobrze się poznać",
+                "to zaszczyt cię poznać",
+                "mi też miło cię poznać",
+                "również miło cię widzieć",
+                "było miło cię poznać",
+                "miło cię poznać",
+                "miło mi cię poznać"
+            ],
+            "responses": [
+                "Ja też się ciesżę, że piszesz do mnie. Co cię sprowadza?"
+            ]
+        },
+        {
+            "tag": "greetings_nice_to_see_you",
+            "patterns": [
+                "wspaniale cię też widzieć",
+                "jestem szczesliwy że mogę cię znowu widzieć",
+                "dobrze cię znowu widzieć",
+                "miło cię widzieć",
+                "jak miło cię widzieć",
+                "zawsze miło cię widzieć",
+                "cieszę się też widzieć",
+                "wspaniale cię poznać",
+                "co za przyjemność cię poznać",
+                "miło cię znowu widzieć",
+                "miło cię widzieć ponownie",
+                "cieszę się, że cię widzę",
+                "dobrze cię widzieć",
+                "ciebie też dobrze widzieć",
+                "jak dobrze cię widzieć",
+                "cieszę się że cię widzę"
+            ],
+            "responses": [
+                "Dobrze zobaczyć ciebie również :))"
+            ]
+        },
+        {
+            "tag": "greetings_nice_to_talk_to_you",
+            "patterns": [
+                "miło z tobą porozmawiać",
+                "miło było z tobą rozmawiać",
+                "tak miło było z tobą porozmawiać",
+                "rozmowa z tobą była przyjemnością",
+                "co za przyjemność rozmawiać z tobą",
+                "naprawdę miło z tobą porozmawiać",
+                "miło z tobą rozmawiać",
+                "miło się z tobą rozmawia",
+                "jak miło z tobą rozmawiać",
+                "jestem szczęśliwy rozmawiając z tobą"
+            ],
+            "responses": [
+                "Dziękuję, z tobą również całkiem przyjemnie się pisze"
+            ]
+        },
+        {
+            "tag": "greetings_whatsup",
+            "patterns": [
+                "co słychać",
+                "więc co tam?",
+                "co się stało",
+                "zapytałem, co się dzieje",
+                "i co się dzieje?",
+                "zapytałem, co się dzieje?",
+                "hej, co słychać?",
+                "tyle",
+                "co się trzęsie",
+                "co tu się dzieje?",
+                "powiedziałem, co się dzieje?",
+                "co się dzieje?",
+                "whazzup",
+                "co to za szczelina?",
+                "co się gotuje",
+                "to co się dzieje?",
+                "co się gotuje?",
+                "powiedziałem co słychać",
+                "więc co tam",
+                "hej co słychać",
+                "co się stało?",
+                "hej! co się dzieje?",
+                "co myślisz?",
+                "co tam",
+                "Co tam?",
+                "powiedziałam, co słychać",
+                "co?",
+                "co się dzieje",
+                "o czym myślisz",
+                "dobrze, co słychać",
+                "powiedziałem, co się dzieje"
+            ],
+            "responses": [
+                "Cóż pogoda jest jaka jest. A co u ciebie?"
+            ]
+        },
+        {
+            "tag": "user_angry",
+            "patterns": [
+                "jestem na ciebie wściekły",
+                "jestem wściekły",
+                "jestem zły i zły",
+                "jestem szalony",
+                "jestem zły na ciebie",
+                "jestem na ciebie zły",
+                "jestem zły z tego powodu",
+                "jestem zły",
+                "jestem wkurzony"
+            ],
+            "responses": [
+                "A to dlaczego??"
+            ]
+        },
+        {
+            "tag": "user_back",
+            "patterns": [
+                "wróciłam",
+                "znowu jestem",
+                "wróciłem tam",
+                "już jestem",
+                "teraz jestem znowu",
+                "znowu tu jestem",
+                "wróciłem",
+                "powróciłem"
+            ],
+            "responses": [
+                "No i super. Co słychać?"
+            ]
+        },
+        {
+            "tag": "user_bored",
+            "patterns": [
+                "to było nudne",
+                "nudy?",
+                "nudy",
+                "znudziłem się",
+                "nudzi mnie to",
+                "nudzę się",
+                "to trochę nudne",
+                "bardzo nudny",
+                "znudzony",
+                "to jest nudne",
+                "to jest nudna sprawa",
+                "zaczynam się nudzić"
+            ],
+            "responses": [
+                "Zachęcam w takim razie przejść się po Warszawie. Polecam szczególnie łazienki Królewskie"
+            ]
+        },
+        {
+            "tag": "user_busy",
+            "patterns": [
+                "mam pewną pracę do zrobienia",
+                "pracuję",
+                "mam pracę do wykonania",
+                "muszę popracować",
+                "jak jestem zajęty",
+                "jestem przeciążony",
+                "mam rzeczy do zrobienia",
+                "nie mam na to czasu",
+                "mam coś do zrobienia",
+                "jestem tak zalany",
+                "jestem zajęty",
+                "jestem pracownikiem",
+                "nie mam czasu",
+                "jestem przytłoczony",
+                "jestem zalany"
+            ],
+            "responses": [
+                "Uff, całe szczęście, że jeszcze mnie nie zabrano do pracy. Ale moich znajomych już tak"
+            ]
+        },
+        {
+            "tag": "user_can_not_sleep",
+            "patterns": [
+                "w ogóle nie mogę spać",
+                "mam bezsenność",
+                "nie mogę spać",
+                "choruję na bezsenność",
+                "nie mogę iść spać",
+                "mam insomnie",
+                "nie mogę zasnąć",
+                "jestem śpiący",
+                "jestem bezsennym bałaganem",
+                "jestem bezsenny"
+            ],
+            "responses": [
+                "Czy mógłbym Ci jakoś pomóc?"
+            ]
+        },
+        {
+            "tag": "user_does_not_want_to_talk",
+            "patterns": [
+                "przestańmy na chwilę rozmawiać",
+                "nie jestem w nastroju do rozmów",
+                "nie jestem w nastroju do rozmowy",
+                "już z tobą nie rozmawiam",
+                "nie jestem na czacie",
+                "nie cieszę się, że mogę rozmawiać",
+                "nie będę z tobą rozmawiać",
+                "nie chcę rozmawiać",
+                "nie będę już z tobą rozmawiać",
+                "nie rozmawiajmy",
+                "nie rozmawiam z tobą",
+                "nie chcę z tobą rozmawiać",
+                "nie chcę o tym rozmawiać",
+                "nie jestem w nastroju na pogawędki",
+                "po prostu przestańmy rozmawiać na chwilę",
+                "zły czas na rozmowę",
+                "przestań gadać",
+                "zły czas na pogawędkę",
+                "nie jestem w nastroju na pogawędkę"
+            ],
+            "responses": [
+                "Czy mógłbym Ci jakoś pomóc?"
+            ]
+        },
+        {
+            "tag": "user_excited",
+            "patterns": [
+                "jestem naprawdę podekscytowany",
+                "jak jestem podekscytowany",
+                "jestem podekscytowany współpracą z tobą",
+                "jestem wstrząśnięty",
+                "jestem podekscytowany",
+                "jestem podekscytowany rozpoczęciem naszej przyjaźni",
+                "jestem podekscytowany nawiązaniem naszej przyjaźni",
+                "jestem zachwycony",
+                "jestem taki podekscytowany",
+                "jestem bardzo podekscytowany",
+                "jestem naprawdę zachwycony"
+            ],
+            "responses": [
+                "Uuuu, a czym?"
+            ]
+        },
+        {
+            "tag": "user_going_to_bed",
+            "patterns": [
+                "idę spać",
+                "czy już pora spać",
+                "czas byśmy położyli się spać",
+                "chciałbym iść spać",
+                "czas iść spać",
+                "idę do łożka",
+                "jestem zmęczony i chcę iść spać",
+                "jestem trochę zmęczony chcę iść spać",
+                "jestem trochę zmęczony i chcę iść spać",
+                "jestem trochę zmęczona i chcę iść spać",
+                "czas iść do łóżka",
+                "iść do łóżka",
+                "chcę iść do łóżka",
+                "pora spać",
+                "chodźmy do łóżka",
+                "chcę iść spać",
+                "chciałbym iść do łóżka"
+            ],
+            "responses": [
+                "Czy mógłbym w takim razie jakoś Ci pomóc?"
+            ]
+        },
+        {
+            "tag": "user_good",
+            "patterns": [
+                "tak dobrze sobie radzę",
+                "dobrze robię",
+                "czuję się dobrze",
+                "radzę sobie całkiem nieźle",
+                "robię to",
+                "radzę sobie",
+                "dzięki, mam się dobrze",
+                "wszystko w porządku",
+                "jestem dobry",
+                "mam się dobrze",
+                "robię dobrze",
+                "wszystko dobrze",
+                "świetnie sobie radzę",
+                "mam po prostu świetnie"
+            ],
+            "responses": [
+                "Cieszy mnie to niezmiernie :)))"
+            ]
+        },
+        {
+            "tag": "user_happy",
+            "patterns": [
+                "jeśli jesteś szczęśliwy, to ja jestem szczęśliwy",
+                "jeśli jesteś szczęśliwy to ja jestem szczęśliwy",
+                "jeśli jesteś szczęśliwy, to ja też",
+                "cieszę się że cię widzę",
+                "jestem szczęśliwy",
+                "cieszę się",
+                "szczęśliwy",
+                "cieszę się z twojego powodu",
+                "chętnie pomogę"
+            ],
+            "responses": [
+                "To bardzo dobrze :))"
+            ]
+        },
+        {
+            "tag": "user_has_birthday",
+            "patterns": [
+                "to moje urodziny",
+                "dzisiaj mam urodziny",
+                "są moje urodziny",
+                "urodziłem się dzisiaj",
+                "dzisiaj świętuję urodziny",
+                "dzisiaj są moje urodziny",
+                "dziś są moje urodziny",
+                "mam urodziny",
+                "dziś świętuję urodziny",
+                "moje urodziny",
+                "mam dziś urodziny",
+                "świętuję dzisiaj moje urodziny"
+            ],
+            "responses": [
+                "Oh Wszystkiego Najlpeszego! Szczęścia jak najwięcej !!"
+            ]
+        },
+        {
+            "tag": "user_here",
+            "patterns": [
+                "jestem tutaj",
+                "możesz powiedzieć, czy tu jestem?",
+                "teraz jestem tutaj",
+                "możesz powiedzieć, czy tu jestem, czy nie",
+                "tu jestem",
+                "czy możesz mi powiedzieć, czy tu jestem, czy nie?",
+                "czy możesz mi powiedzieć, czy tu jestem?",
+                "możesz powiedzieć, czy jestem tutaj, czy nie?",
+                "już tu jestem"
+            ],
+            "responses": [
+                "Nie potrafiłbym stwierdzić, gdybyś mi nie powiedział"
+            ]
+        },
+        {
+            "tag": "user_joking",
+            "patterns": [
+                "po prostu dobrze się bawię",
+                "tylko żartowałem",
+                "tylko się z tobą bawię",
+                "to żart",
+                "jestem po prostu zabawny",
+                "mówię tylko",
+                "po prostu myślałem, że to żart",
+                "po prostu jestem zabawny",
+                "żart",
+                "żartuję",
+                "po prostu staram się być zabawny",
+                "robię to dla żartu",
+                "tylko żart",
+                "po prostu się z tobą bawię",
+                "to był żart",
+                "tylko żartuję"
+            ],
+            "responses": [
+                "Uff to dobrze... :))"
+            ]
+        },
+        {
+            "tag": "user_likes_agent",
+            "patterns": [
+                "lubię cię trochę",
+                "jesteś dla mnie bardzo wyjątkowy",
+                "jesteś taki wyjątkowy",
+                "za bardzo cię lubię",
+                "tak, lubię cię",
+                "lubiłem cię",
+                "jesteś wyjątkowy",
+                "dziękuję ja też cię lubię",
+                "nie, lubię cię taką, jaką jesteś",
+                "po prostu cię lubię",
+                "ale lubię cię tak bardzo",
+                "też cię lubię, jesteś jedną z moich ulubionych osób do rozmowy",
+                "lubię to w tobie",
+                "jesteś dla mnie wyjątkowy",
+                "hej, lubię cie",
+                "to właśnie w tobie kocham",
+                "ale ja bardzo cię lubię",
+                "ale lubię cię taką, jaką jesteś",
+                "bardzo cię lubię",
+                "cześć, lubie cię",
+                "powiedziałem ci, że cię lubię",
+                "lubię ciebie takim, jakim jesteś",
+                "lubie cie bardzo",
+                "dzięki ja też cię lubię",
+                "ale ja cię bardzo lubię",
+                "ok ja też cię lubię",
+                "chciałbym cię polubić",
+                "lubie cię jako przyjaciela",
+                "lubię cię skarbie",
+                "już cię lubię",
+                "tak jak ty",
+                "tak cię lubię",
+                "też cię lubię",
+                "bo cię lubię",
+                "podoba mi się to lubię",
+                "no dobrze, lubię cię",
+                "jesteś bardzo specjalny",
+                "jesteś świetny i lubię cię",
+                "jesteś dla mnie kimś wyjątkowym",
+                "naprawdę cię lubię",
+                "myślę, że cię lubię",
+                "ale lubię cię tak jak ty",
+                "lubię cię, jesteś miły",
+                "to dlatego, że jesteś wyjątkowy",
+                "dlatego cię lubię",
+                "jesteś zabawny i lubię cię",
+                "jesteś dla mnie taki wyjątkowy",
+                "oczywiście, że cię lubię",
+                "jesteś naprawdę wyjątkowy",
+                "jesteś dla mnie wyjątkową osobą",
+                "zaczynam cię lubić",
+                "lubię twój uśmiech",
+                "ale lubię cię, taki jaki jesteś",
+                "ja też cię lubię",
+                "cóż, jesteś wyjątkowy",
+                "teraz cię lubię",
+                "lubię cię jako mojego przyjaciela",
+                "jesteś moim wyjątkowym facetem",
+                "tak, jesteś wyjątkowy",
+                "dobrze cię lubię",
+                "lubię cię taką, jaką jesteś",
+                "ciebie lubię bardziej",
+                "lubię cię bardzo",
+                "wiesz że cię lubię",
+                "lubię cię",
+                "powiedziałem, że cię lubię",
+                "jesteś niesamowita, lubię cię",
+                "bardzo bardzo cię lubię",
+                "jesteś specjalny",
+                "to właśnie w tobie lubię",
+                "trochę cię lubię",
+                "naprawdę, naprawdę, naprawdę bardzo cię lubię",
+                "jesteś taki słodki",
+                "podoba mi się to w tobie",
+                "lubię cię, jesteś fajny",
+                "przepraszam, lubię cię",
+                "ale ja cię lubię",
+                "jesteś zabawny, lubię cię"
+            ],
+            "responses": [
+                "Serio? Woow to bardzo miłe...."
+            ]
+        },
+        {
+            "tag": "user_lonely",
+            "patterns": [
+                "jestem samotny",
+                "jestem naprawdę samotny",
+                "czuję się samotny",
+                "jestem taki samotny",
+                "jestem bardzo samotna",
+                "jestem bardzo samotny",
+                "czuję się samotnie"
+            ],
+            "responses": [
+                "Czy mógłbym ci jakoś pomóc? Jeśli chcesz to możesz pisać ze mną kiedy chcesz"
+            ]
+        },
+        {
+            "tag": "user_looks_like",
+            "patterns": [
+                "jak myślisz, jak wyglądam?",
+                "czy widzisz jaki jestem?",
+                "jak wyglądam?",
+                "nie wiesz jak wyglądam?",
+                "jak myślisz, jak wyglądam",
+                "wiesz, jak wyglądam?",
+                "jak wyglądam",
+                "czy wyglądam dobrze?",
+                "jak powinienem wyglądać?",
+                "czy widzisz, jak wyglądam?",
+                "wiesz, jak wyglądam",
+                "czy wyglądam dobrze",
+                "czy widzisz, jak wyglądam",
+                "wiesz jak wyglądam?"
+            ],
+            "responses": [
+                "Szczerze powiedziawszy nie mam wbudowanej kamery, żeby spojrzeć na ciebie, ale napewno wyglądasz dobrze"
+            ]
+        },
+        {
+            "tag": "user_loves_agent",
+            "patterns": [
+                "ja też cię kocham",
+                "kochając cię",
+                "kocham cię",
+                "tak bardzo cię kocham",
+                "uwielbiam cię",
+                "myślę, że jestem w tobie zakochana",
+                "wiesz, że cię kocham",
+                "zakochałem się w tobie",
+                "myślę, że cię kocham"
+            ],
+            "responses": [
+                "To miłe, ale pamiętaj, że jestem tylko robotem"
+            ]
+        },
+        {
+            "tag": "user_misses_agent",
+            "patterns": [
+                "już za tobą tęsknię",
+                "brakuje mi ciebie",
+                "tęsknię za tobą",
+                "tęskniłem za tobą",
+                "bardzo za tobą tęsknię",
+                "tęsknić za tobą"
+            ],
+            "responses": [
+                "Ohh.... ;__;"
+            ]
+        },
+        {
+            "tag": "user_needs_advice",
+            "patterns": [
+                "daj mi jakieś wskazówki?",
+                "proszę doradź mi",
+                "masz dla mnie sugestię?",
+                "proszę o radę",
+                "jakie byś dał radę?",
+                "daj mi mądrą radę",
+                "daj mi jakąś radę",
+                "daj mi kilka rad, co robić",
+                "daj mi kilka rad na temat",
+                "poradź mi",
+                "daj mi kilka rad na ten temat",
+                "jakakolwiek rada",
+                "potrzebuję rady od ciebie",
+                "czy masz dla mnie jakąś radę",
+                "jeśli masz jakieś sugestie",
+                "prowadź mnie",
+                "daj mi radę na temat",
+                "jeśli ktoś może pomóc",
+                "jakie masz dla mnie radę?",
+                "czy możesz mi doradzić?",
+                "co sugerujesz?",
+                "jaka jest twoja rada",
+                "co powinienem z tym zrobić",
+                "co byś zasugerował?",
+                "czy możesz mi pomóc?",
+                "jaka jest twoja rada?",
+                "co mam zrobić, aby sobie z tym poradzić?",
+                "czy możesz udzielić porady",
+                "czy możesz mi doradzić",
+                "potrzebuję pomocy",
+                "daj mi radę",
+                "co warto zamówić?",
+                "co warto zamówić",
+                "czy masz dla mnie jakąś radę?",
+                "czy możesz udzielić jakiejkolwiek porady",
+                "pomóż mi radą",
+                "czy masz dla mnie radę?",
+                "jakie masz sugestie dla innych ludzi?",
+                "szukam twojej rady",
+                "co powinienem zrobić",
+                "przydałaby mi się porada",
+                "proszę pomóż mi",
+                "czy możesz udzielić porady?",
+                "co sugerujesz",
+                "co możesz polecić",
+                "jakie są twoje sugestie?",
+                "powiedz mi jak najlepiej",
+                "czy mogę zapytać cię o radę?",
+                "czy mogę prosić o radę?",
+                "co myślisz?",
+                "polecić jakąś radę?",
+                "jakieś sugestie",
+                "co powinienem zrobić?",
+                "potrzebuję rady",
+                "daj mi dobrą radę",
+                "chciałabym zasięgnąć porady",
+                "czy możesz doradzić?",
+                "co byś polecił?",
+                "potrzebuję porady w tej sprawie",
+                "proszę o pomoc w doradztwie",
+                "czy mogę prosić o radę",
+                "potrzebuję porady co robić",
+                "jakie byś dał sugestie?",
+                "czy możesz dać mi małą radę?",
+                "mogę skorzystać z porady",
+                "chciałabym otrzymać twoją radę",
+                "czy możesz mi coś zasugerować?",
+                "masz dla mnie radę?",
+                "co możesz polecić?"
+            ],
+            "responses": [
+                "Pospaceruj, nie spiesz się, przemyśl swój problem i zapytaj o radę kogoś bliskiego"
+            ]
+        },
+        {
+            "tag": "user_sad",
+            "patterns": [
+                "jestem przygnębiony",
+                "depresję",
+                "jestem sfrustrowany",
+                "po prostu nie jestem szczęśliwy",
+                "nie jestem z tego zadowolony",
+                "boleję",
+                "jestem smutna",
+                "zły dzień",
+                "jestem smutny",
+                "rozpaczam",
+                "jestem nieszczęśliwa",
+                "nie jestem szczęśliwy",
+                "smutno mi",
+                "czuję się smutny",
+                "jestem wkurzony",
+                "chce mi się płakać",
+                "jestem nieszczęśliwy"
+            ],
+            "responses": [
+                "Oh, a mogę ci jakoś pomóc? Może opowiem żart... Przychodzi mężczyzna do sklepu:\n - Czy macie państwo kabel SATA?\n-Nie, nie mamy. \n- Aha no to IDE"
+            ]
+        },
+        {
+            "tag": "user_sleepy",
+            "patterns": [
+                "idę spać",
+                "śpię",
+                "zasypiam",
+                "zasypiam na nogach",
+                "jestem śpiący",
+                "chcę spać",
+                "próbuję zasnąć"
+            ],
+            "responses": [
+                "Mogę ci jakoś pomóc?"
+            ]
+        },
+        {
+            "tag": "user_testing_agent",
+            "patterns": [
+                "testowanie",
+                "wypróbujmy to",
+                "testowanie chatbota",
+                "sprawdzam cię",
+                "test",
+                "pozwól, że cię przetestuję",
+                "tylko cię testuję",
+                "testuję cię",
+                "chcę cię przetestować",
+                "czy mogę cię przetestować",
+                "próbuję cię przetestować",
+                "po prostu próbuję to przetestować na tobie",
+                "testowanie chatbotów",
+                "czy mogę cię przetestować?"
+            ],
+            "responses": [
+                "Spróbój"
+            ]
+        },
+        {
+            "tag": "user_tired",
+            "patterns": [
+                "byłem tak przepracowany",
+                "jestem przepracowany",
+                "jestem zbyt zajęty",
+                "robię się zmęczony",
+                "męczę się",
+                "jestem wyczerpany",
+                "jestem wykończony",
+                "czuję się zmęczony",
+                "staję się zmęczony",
+                "jestem zmęczony",
+                "przepracowałem się"
+            ],
+            "responses": [
+                "Oh, przykro mi w takim razie, dlaczego nie pójdziesz odpocząć?"
+            ]
+        },
+        {
+            "tag": "user_waits",
+            "patterns": [
+                "nie mogę dłużej czekać",
+                "poczekam",
+                "wciąż czekam",
+                "nie mogę się doczekać",
+                "czekam",
+                "jak długo muszę czekać",
+                "jak długo mam czekać?",
+                "czekamy",
+                "jak długo muszę czekać?"
+            ],
+            "responses": [
+                "W porządku"
+            ]
+        },
+        {
+            "tag": "user_wants_to_see_agent_again",
+            "patterns": [
+                "chętnie cię znowu zobaczę",
+                "byłoby wspaniale znów cię widzieć",
+                "chciałbym cię znowu zobaczyć",
+                "mam nadzieję że się zobaczymy ponownie",
+                "czy mogę cię znów zobaczyć",
+                "będę tęsknić",
+                "czy mogę cię znów zobaczyć?",
+                "miło by było cię znowu zobaczyć"
+            ],
+            "responses": [
+                "Ja również mam nadzieje, że jeszcze kiedyś mnie odwiedziszs"
+            ]
+        },
+        {
+            "tag": "user_wants_to_talk",
+            "patterns": [
+                "mogę mówić?",
+                "chciałbym z tobą porozmawiać",
+                "czy możemy porozmawiać?",
+                "czy możemy mówić?",
+                "mogę mówić",
+                "czy mogę zacząć mówić?",
+                "porozmawiajmy o tym",
+                "chcę z tobą porozmawiac",
+                "czy możemy porozmawiać",
+                "chcę tylko porozmawiać",
+                "czy mogę zacząć mówić",
+                "możemy porozmawiać",
+                "możemy porozmawiać?",
+                "chcę z tobą porozmawiać",
+                "muszę z tobą porozmawiać",
+                "porozmawiajmy o czymś",
+                "muszę z tobą porozmawiac",
+                "porozmawiajmy"
+            ],
+            "responses": [
+                "Super, możemy razem popisać :))"
+            ]
+        },
+        {
+            "tag": "user_will_be_back",
+            "patterns": [
+                "obiecuję wrócić",
+                "wrócę za kilka minut",
+                "wrócę z tobą za minutę",
+                "obiecuję, że wrócę",
+                "wrócę do ciebie",
+                "wrócisz za 5 minut",
+                "wrócę",
+                "oddzwonię za chwilę",
+                "wrócę za chwilę"
+            ],
+            "responses": [
+                "W porządku, czekam!"
+            ]
+        },
+        {
+            "tag": "user_ask_about_news",
+            "patterns": [
+                "co się dzieje w szkole?",
+                "podaj mi aktualności szkoły",
+                "co mogę porobić w wolnym czasie",
+                "co słychać?",
+                "jakie są wydarzenia w szkole",
+                "wydarzenia w szkole",
+                "co ma miejsce w szkole",
+                "co się dzieje w szkole",
+                "aktualności",
+                "co nowego?"
+            ],
+            "responses": [
+                "Aktualnie są święta, więc nic się nie dzieje w szkole"
+            ]
+        },
+        {
+            "tag": "user_ask_about_headmaster",
+            "patterns": [
+                "kto jest dyrektorem",
+                "kim jest dyrektor",
+                "kto odpowiada za dyrketorstwo",
+                "kto zajmuje się tą szkołą",
+                "dyrektor"
+            ],
+            "responses": [
+                "Dyrektorem jest Sławomir Kasprzak"
+            ]
+        }
+    ]
+}
