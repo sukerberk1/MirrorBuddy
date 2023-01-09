@@ -35,7 +35,8 @@ INSTALLED_APPS = [
     'spotted',
     'chatbot',
     'map',
-
+    'restapi',
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
