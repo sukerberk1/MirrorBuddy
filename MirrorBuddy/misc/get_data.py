@@ -95,7 +95,7 @@ def validate_schedule(plan):
 
 
 """News functions down here"""
-def gather_List(strona):
+def gather_list(strona):
     list = [[None for x in range(3)] for x in range(12)]
     url = f"https://tm1.edu.pl/page/{strona}"
     page = requests.get(url)

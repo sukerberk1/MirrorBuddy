@@ -33,7 +33,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'spotted',
-    'chatbot',
     'map',
     'restapi',
     

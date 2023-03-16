@@ -17,8 +17,8 @@ from django.contrib import admin
 from django.urls import path
 from map.views import Home, map_finder, schedule_finder, schedule_specific, news_view
 from spotted.views import spotted_view
-from chatbot.views import chatbot_view
-from restapi.views import jsondata
+# from chatbot.views import chatbot_view
+import restapi.views as api
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -35,8 +35,10 @@ urlpatterns = [
     path('spotted/', spotted_view, name='spottedapp'),
 
     #chatbot views:
-    path('chatbot', chatbot_view, name='chatbot'),
+    # path('chatbot', chatbot_view, name='chatbot'),
 
     #rest api:
-    path('spotted/getdata', jsondata ,name='jsondata')
+    path('api/spotted', api.spotted_data ,name='jsondata'),
+    path('api/schedules/<slug>', api.schedule_data),
+    path('api/news/<int:page>', api.news_data)
 ]
