@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.views.generic.base import TemplateView
 from .models import Teacher
-from misc.get_data import gather_schedule, get_headings_fast, validate_schedule, reformat_schedule, gather_List
+from misc.get_data import gather_schedule, get_headings_fast, validate_schedule, reformat_schedule, gather_news
 
 # Create your views here.
 
@@ -42,6 +42,6 @@ def schedule_specific(request, slug):
     return render(request, 'schedule_specific.html', {'schedule': schedule, 'heading': heading })
 
 def news_view(request, pid):
-    data = gather_List(pid)
+    data = gather_news(pid)
     news_range = [x+1 for x in range(6)]
     return render(request, 'news.html', {'data': data, 'news_range': news_range, 'current': pid})

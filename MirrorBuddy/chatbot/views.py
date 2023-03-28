@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from chatbot.Voice_Assistant.model import BuddyBrain
+# from chatbot.Voice_Assistant.model import BuddyBrain
 
 
 # Create your views here.
@@ -20,16 +20,16 @@ def chatbot(message):
     return response
 
 def chatbot_view(request):
-    assistant = BuddyBrain()
+    # assistant = BuddyBrain()
     botresponse = "Cześć! Jestem MirrorBuddy, twój elektroniczny towarzysz, przewodnik po szkole, jednosobowa armia! Czego potrzebujesz?"
     
     
 
-    if request.method=="POST":
-        #botresponse = chatbot(request.POST.get('message'))
-        message = assistant.listen()
-        res, tag = assistant.answer(message)
-        assistant.say(res)
+    # if request.method=="POST":
+    #     #botresponse = chatbot(request.POST.get('message'))
+    #     message = assistant.listen()
+    #     res, tag = assistant.answer(message)
+    #     assistant.say(res)
     
 
 
